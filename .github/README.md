@@ -11,7 +11,7 @@
 </div>
 
 <p align="center">
-    <img src='https://raw.githubusercontent.com/fedetomassini/.config/main/assets/image.png'>
+    <img src='https://raw.githubusercontent.com/fedetomassini/.config/main/assets/image.jpeg'>
 </p>
 
 ## Contents
