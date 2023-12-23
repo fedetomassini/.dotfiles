@@ -1,0 +1,53 @@
+{
+  "editor.bracketPairColorization.enabled": false,
+  "editor.cursorBlinking": "expand",
+  "editor.fontSize": 13,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "files.associations": {
+    "COMMIT_EDITMSG": "git-commit",
+    "*.css": "tailwindcss"
+  },
+  "explorer.compactFolders": false,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, .gitignore"
+  },
+  "errorLens.fontStyleItalic": true,
+  "errorLens.fontWeight": "700",
+  "npm.packageManager": "npm",
+  "projectManager.groupList": true,
+  "projectManager.tags": [
+    "Testing",
+    "Main",
+    "Personal"
+  ],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.shellIntegration.history": 5,
+  "telemetry.telemetryLevel": "off",
+  "vscord.app.name": "Visual Studio Code",
+  "vscord.app.privacyMode.enable": true,
+  "vscord.behaviour.suppressNotifications": true,
+  "vscord.status.details.text.editing": "Working on {file_name}{file_extension}",
+  "vscord.status.state.text.editing": "Currently at line {current_line}/{current_column} - {line_count}",
+  "window.menuBarVisibility": "toggle",
+  "window.titleBarStyle": "native",
+  "window.zoomLevel": -1,
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#94A684"
+  },
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore"
+}
