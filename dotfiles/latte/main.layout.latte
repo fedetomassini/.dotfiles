@@ -20,7 +20,7 @@ raiseOnDesktopChange=false
 timerHide=700
 timerShow=200
 viewType=0
-visibility=2
+visibility=3
 wallpaperplugin=org.kde.image
 
 [Containments][1][Applets][2]
@@ -32,14 +32,7 @@ PreloadWeight=0
 
 [Containments][1][Applets][2][Configuration][General]
 isInLatteDock=true
-launchers59=applications:firefox.desktop,applications:org.kde.dolphin.desktop
-
-[Containments][1][Applets][3]
-immutability=1
-plugin=org.kde.plasma.analogclock
-
-[Containments][1][Applets][3][Configuration]
-PreloadWeight=0
+launchers59=applications:google-chrome.desktop,applications:google-chrome-unstable.desktop,applications:code.desktop,applications:pgadmin4.desktop,applications:bruno.desktop,applications:notion-app.desktop,applications:discord.desktop,applications:spotify.desktop,applications:kitty.desktop,file:///latte-separator1.desktop,applications:org.kde.dolphin.desktop,applications:systemsettings.desktop
 
 [Containments][1][ConfigDialog]
 DialogHeight=600
@@ -51,33 +44,41 @@ PreloadWeight=0
 [Containments][1][General]
 advanced=false
 alignmentUpgraded=true
-appletOrder=2;3
+appletOrder=2
+blurEnabled=false
 configurationSticker=true
-panelSize=10
+iconSize=32
+panelSize=100
+panelTransparency=70
 shadowOpacity=60
-shadowSize=45
+shadowSize=40
 shadows=All
 shadowsUpgraded=true
 showGlow=false
 tasksUpgraded=true
 titleTooltips=false
-zoomLevel=17
+zoomLevel=2
 
 [Containments][1][Indicator]
 customType=
 enabled=true
 type=org.kde.latte.default
 
+[Containments][1][Indicator][org.kde.latte.default][General]
+activeStyle=Dot
+
 [LayoutSettings]
-activities=
+activities={0}
 backgroundStyle=0
 color=blue
 customBackground=
 customTextColor=
+disableBordersForMaximizedWindows=false
 icon=
-lastUsedActivity=
+lastUsedActivity=fd2ec53c-db77-4360-85b9-9aa16b42a7d7
 launchers=
 popUpMargin=-1
 preferredForShortcutsTouched=false
+schemeFile=
 showInMenu=true
 version=2

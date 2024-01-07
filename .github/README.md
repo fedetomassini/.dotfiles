@@ -18,7 +18,7 @@
 
 This repository contains personalized configurations for the KDE Plasma desktop environment on a Debian system. The included folders are:
 
-- **bash**: *My Custom configurations for the Bash shell.*
+- **bash + neofetch**: *My Custom configurations for the Bash shell and neofetch.*
 - **kitty**: *My Configurations for the Kitty terminal.*
 - **latte**: *My Settings for the Latte Dock taskbar.*
 - **rofi**: *My Configurations for the Rofi application launcher.*
@@ -31,11 +31,11 @@ This repository contains personalized configurations for the KDE Plasma desktop 
    ```bash
    git clone https://github.com/fedetomassini/.config.git
    ```
-
-2. Copy the files to your config folder location, for example:
+2. Run the install script:
 
    ```bash
-   mv /Downloads/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
+   chmod +x install.sh
+   ./install.sh
    ```
 
 &nbsp;

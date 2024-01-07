@@ -23,8 +23,11 @@
   "projectManager.tags": [
     "Testing",
     "Main",
-    "Personal"
+    "Personal",
+    "Archived",
+    "Learning"
   ],
+  "projectManager.sortList": "Recent",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.env.windows": {},
   "terminal.integrated.shellIntegration.history": 5,
@@ -50,5 +53,10 @@
   },
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
-  "markdown-preview-enhanced.previewTheme": "github-dark.css"
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "workbench.iconTheme": "icons",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }

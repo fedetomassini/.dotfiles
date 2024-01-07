@@ -118,7 +118,9 @@ fi
 #bash
 eval "$(oh-my-posh init bash --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/tokyonight_storm.omp.json)"
 #spicetify
-export PATH=$PATH:/home/fedetomassini/.spicetify
+export PATH=$PATH:$HOME/.spicetify
+#nvim
+export PATH=$PATH:$HOME/.local/bin/nvim
 #nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
