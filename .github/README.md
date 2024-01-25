@@ -22,7 +22,7 @@ This repository contains personalized configurations for the KDE Plasma desktop 
 - **kitty**: *My Configurations for the Kitty terminal.*
 - **latte**: *My Settings for the Latte Dock taskbar.*
 - **rofi**: *My Configurations for the Rofi application launcher.*
-- **vscode**: *My settings and extensions for Visual Studio Code.*
+- **vscode**: *My settings and extensions for Visual Studio Code - linux.*
 
 ## Usage
 

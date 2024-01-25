@@ -7,15 +7,18 @@
   "editor.quickSuggestions": {
     "strings": "on"
   },
-  "files.associations": {
-    "COMMIT_EDITMSG": "git-commit",
-    "*.css": "tailwindcss"
-  },
+  "extensions.ignoreRecommendations": true,
+  "extensions.autoCheckUpdates": true,
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, .gitignore"
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
   },
+  "excalidraw.theme": "dark",
+  "excalidraw.language": "en",
   "errorLens.fontStyleItalic": true,
   "errorLens.fontWeight": "700",
   "npm.packageManager": "npm",
@@ -27,36 +30,57 @@
     "Archived",
     "Learning"
   ],
-  "projectManager.sortList": "Recent",
+  "projectManager.sortList": "Name",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.linux": "bash",
   "terminal.integrated.env.windows": {},
   "terminal.integrated.shellIntegration.history": 5,
   "telemetry.telemetryLevel": "off",
-  "vscord.app.name": "Visual Studio Code",
-  "vscord.app.privacyMode.enable": true,
-  "vscord.behaviour.suppressNotifications": true,
-  "vscord.status.details.text.editing": "Working on {file_name}{file_extension}",
-  "vscord.status.state.text.editing": "Currently at line {current_line}/{current_column} - {line_count}",
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "native",
   "window.zoomLevel": -1,
+  "window.commandCenter": false,
   "workbench.colorCustomizations": {
     "tree.indentGuidesStroke": "#94A684"
   },
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "Min Dark",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.startupEditor": "none",
+  "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.indent": 15,
   "workbench.tree.renderIndentGuides": "always",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "css.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownAtRules": "ignore",
-  "markdown-preview-enhanced.previewTheme": "github-dark.css",
-  "workbench.iconTheme": "icons",
+  "workbench.statusBar.visible": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.iconTheme": "symbols",
   "liveServer.settings.donotShowInfoMsg": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "terminal.integrated.env.linux": {},
+  "symbols.hidesExplorerArrows": false,
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 11,
+      "y": 10
+    },
+    "frame": false
+  },
+  "apc.header": {
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    // ".slider": "width: 4px !important",
+    ".pane-header": "padding: 0 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
   }
 }
