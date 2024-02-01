@@ -5,14 +5,12 @@ KITTY_SRC="$DOTFILES_DIR/kitty/kitty.conf"
 ROFI_SRC="$DOTFILES_DIR/rofi/config.rasi"
 VSCODE_SRC="$DOTFILES_DIR/vscode/settings.json"
 NEOFETCH_SRC="$DOTFILES_DIR/bash/neofetch/config.conf"
-LATTE_SRC="$DOTFILES_DIR/latte/main.layout.latte"
 
 BASHRC_DEST="$HOME/.bashrc"
 KITTY_DEST="$HOME/.config/kitty"
 ROFI_DEST="$HOME/.config/rofi/config"
 VSCODE_DEST="$HOME/.config/Code/User"
 NEOFETCH_DEST="$HOME/.config/neofetch"
-LATTE_DEST="$HOME/.config/latte"
 
 # Function to copy files
 copied_files=0
@@ -40,7 +38,6 @@ copy_file "$BASHRC_SRC" "$BASHRC_DEST"
 copy_file "$KITTY_SRC" "$KITTY_DEST"
 copy_file "$ROFI_SRC" "$ROFI_DEST"
 copy_file "$VSCODE_SRC" "$VSCODE_DEST"
-copy_file "$LATTE_SRC" "$LATTE_DEST"
 copy_file "$NEOFETCH_SRC" "$NEOFETCH_DEST"
 
 echo -e "\e[32mDone => Copied $copied_files/6 files.\e[0m"
