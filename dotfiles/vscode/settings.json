@@ -2,6 +2,7 @@
   "editor.bracketPairColorization.enabled": false,
   "editor.cursorBlinking": "expand",
   "editor.fontSize": 13,
+  "editor.tabSize": 4,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
@@ -58,7 +59,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "markdown-preview-enhanced.previewTheme": "github-dark.css",
   "terminal.integrated.env.linux": {},
   "symbols.hidesExplorerArrows": false,
   "css.lint.unknownAtRules": "ignore",
@@ -80,10 +80,12 @@
   "apc.stylesheet": {
     ".title-label > h2": "display: none",
     ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    // ".slider": "width: 4px !important",
     ".pane-header": "padding: 0 8px",
     ".split-view-view:first-child .pane-header": "display: none !important;",
     ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
+    ".breadcrumbs-below-tabs": "display: none;",
+    ".decorationsOverviewRuler": "width: 0px !important;",
+    ".slider, .scrollbar": "width: 5px !important; border-radius: 99px !important;"
   }
 }
