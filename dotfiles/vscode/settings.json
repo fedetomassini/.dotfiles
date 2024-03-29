@@ -5,6 +5,7 @@
   "editor.tabSize": 4,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
   "editor.quickSuggestions": {
     "strings": "on"
   },
@@ -27,6 +28,7 @@
   "projectManager.tags": [
     "Testing",
     "Main",
+    "Work/Org",
     "Personal",
     "Archived",
     "Learning"
@@ -47,14 +49,14 @@
   "workbench.colorCustomizations": {
     "tree.indentGuidesStroke": "#94A684"
   },
-  "workbench.colorTheme": "Min Dark",
+  "workbench.colorTheme": "Bearded Theme Stained Blue",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.indent": 15,
   "workbench.tree.renderIndentGuides": "always",
   "workbench.statusBar.visible": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "bearded-icons",
   "liveServer.settings.donotShowInfoMsg": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -63,6 +65,9 @@
   "symbols.hidesExplorerArrows": false,
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+  "markdown-preview-enhanced.revealjsTheme": "moon.css",
   "apc.electron": {
     "titleBarStyle": "hiddenInset",
     "trafficLightPosition": {
@@ -86,6 +91,7 @@
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
     ".breadcrumbs-below-tabs": "display: none;",
     ".decorationsOverviewRuler": "width: 0px !important;",
-    ".slider, .scrollbar": "width: 5px !important; border-radius: 99px !important;"
-  }
+    ".slider, .scrollbar": "width: 5px !important; border-radius: 99px !important;", 
+  },
+  "glassit.alpha": 250,
 }
