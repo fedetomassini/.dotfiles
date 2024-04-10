@@ -3,6 +3,8 @@
   "editor.cursorBlinking": "expand",
   "editor.fontSize": 13,
   "editor.tabSize": 4,
+  "editor.indentSize": "tabSize",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.smoothScrolling": true,
@@ -14,7 +16,6 @@
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
     "tailwind.config.js": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
     ".env": ".env*"
@@ -57,12 +58,10 @@
   "workbench.statusBar.visible": false,
   "workbench.layoutControl.enabled": false,
   "workbench.iconTheme": "bearded-icons",
-  "liveServer.settings.donotShowInfoMsg": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "terminal.integrated.env.linux": {},
-  "symbols.hidesExplorerArrows": false,
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
   "markdown-preview-enhanced.previewTheme": "github-dark.css",
@@ -94,4 +93,7 @@
     ".slider, .scrollbar": "width: 5px !important; border-radius: 99px !important;", 
   },
   "glassit.alpha": 250,
+  "prettier.enable": true,
+  "prettier.useTabs": true,
+  "prettier.tabWidth": 4
 }
