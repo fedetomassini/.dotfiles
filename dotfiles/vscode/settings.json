@@ -1,99 +1,106 @@
 {
-  "editor.bracketPairColorization.enabled": false,
-  "editor.cursorBlinking": "expand",
-  "editor.fontSize": 13,
-  "editor.tabSize": 4,
-  "editor.indentSize": "tabSize",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.linkedEditing": true,
-  "editor.minimap.enabled": false,
-  "editor.smoothScrolling": true,
-  "editor.quickSuggestions": {
-    "strings": "on"
-  },
-  "extensions.ignoreRecommendations": true,
-  "extensions.autoCheckUpdates": true,
-  "explorer.compactFolders": false,
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.patterns": {
-    "tailwind.config.js": "tailwind.config*, postcss.config*",
-    ".env.local": ".env*",
-    ".env": ".env*"
-  },
-  "excalidraw.theme": "dark",
-  "excalidraw.language": "en",
-  "errorLens.fontStyleItalic": true,
-  "errorLens.fontWeight": "700",
-  "npm.packageManager": "npm",
-  "projectManager.groupList": true,
-  "projectManager.tags": [
-    "Testing",
-    "Main",
-    "Work/Org",
-    "Personal",
-    "Archived",
-    "Learning"
-  ],
-  "projectManager.sortList": "Name",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.defaultProfile.linux": "bash",
-  "terminal.integrated.env.windows": {},
-  "terminal.integrated.shellIntegration.history": 5,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "underline",
-  "terminal.external.linuxExec": "kitty",
-  "telemetry.telemetryLevel": "off",
-  "window.menuBarVisibility": "toggle",
-  "window.titleBarStyle": "native",
-  "window.zoomLevel": -1,
-  "window.commandCenter": false,
-  "workbench.colorCustomizations": {
-    "tree.indentGuidesStroke": "#94A684"
-  },
-  "workbench.colorTheme": "Bearded Theme Stained Blue",
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.tree.indent": 15,
-  "workbench.tree.renderIndentGuides": "always",
-  "workbench.statusBar.visible": false,
-  "workbench.layoutControl.enabled": false,
-  "workbench.iconTheme": "bearded-icons",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "terminal.integrated.env.linux": {},
-  "css.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownAtRules": "ignore",
-  "markdown-preview-enhanced.previewTheme": "github-dark.css",
-  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
-  "markdown-preview-enhanced.revealjsTheme": "moon.css",
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 11,
-      "y": 10
-    },
-    "frame": false
-  },
-  "apc.header": {
-    "height": 36
-  },
-  "apc.listRow": {
-    "height": 24
-  },
-  "apc.stylesheet": {
-    ".title-label > h2": "display: none",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".pane-header": "padding: 0 8px",
-    ".split-view-view:first-child .pane-header": "display: none !important;",
-    ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
-    ".breadcrumbs-below-tabs": "display: none;",
-    ".decorationsOverviewRuler": "width: 0px !important;",
-    ".slider, .scrollbar": "width: 5px !important; border-radius: 99px !important;", 
-  },
-  "glassit.alpha": 250,
-  "prettier.enable": true,
-  "prettier.useTabs": true,
-  "prettier.tabWidth": 4
+	"editor.bracketPairColorization.enabled": false,
+	"editor.cursorBlinking": "expand",
+	"editor.fontSize": 13,
+	"editor.tabSize": 4,
+	"editor.indentSize": "tabSize",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.linkedEditing": true,
+	"editor.minimap.enabled": false,
+	"editor.smoothScrolling": true,
+	"editor.quickSuggestions": {
+		"strings": "on"
+	},
+	"extensions.ignoreRecommendations": true,
+	"extensions.autoCheckUpdates": true,
+	"explorer.compactFolders": false,
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"tailwind.config.js": "tailwind.config*, postcss.config*",
+		".env.local": ".env*",
+		".env": ".env*"
+	},
+	"excalidraw.theme": "dark",
+	"excalidraw.language": "en",
+	"errorLens.fontStyleItalic": true,
+	"errorLens.fontWeight": "700",
+	"npm.packageManager": "npm",
+	"projectManager.groupList": true,
+	"projectManager.tags": [
+		"Testing",
+		"Main",
+		"Work/Org",
+		"Personal",
+		"Archived",
+		"Learning"
+	],
+	"projectManager.sortList": "Name",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.defaultProfile.linux": "bash",
+	"terminal.integrated.env.windows": {},
+	"terminal.integrated.shellIntegration.history": 5,
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "underline",
+	"terminal.external.linuxExec": "kitty",
+	"telemetry.telemetryLevel": "off",
+	"window.menuBarVisibility": "toggle",
+	"window.titleBarStyle": "native",
+	"window.zoomLevel": -1,
+	"window.commandCenter": false,
+	"workbench.colorCustomizations": {
+		"tree.indentGuidesStroke": "#94A684"
+	},
+	"workbench.colorTheme": "Bearded Theme Stained Blue",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.tree.indent": 15,
+	"workbench.tree.renderIndentGuides": "always",
+	"workbench.statusBar.visible": false,
+	"workbench.layoutControl.enabled": false,
+	"workbench.iconTheme": "bearded-icons",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"terminal.integrated.env.linux": {},
+	"css.lint.unknownAtRules": "ignore",
+	"scss.lint.unknownAtRules": "ignore",
+	"markdown-preview-enhanced.previewTheme": "github-dark.css",
+	"markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+	"markdown-preview-enhanced.revealjsTheme": "moon.css",
+	"apc.electron": {
+		"titleBarStyle": "hiddenInset",
+		"trafficLightPosition": {
+			"x": 11,
+			"y": 10
+		},
+		"frame": false
+	},
+	"apc.header": {
+		"height": 36
+	},
+	"apc.listRow": {
+		"height": 24
+	},
+	"apc.stylesheet": {
+		".title-label > h2": "display: none",
+		".nosidebar .inline-tabs-placeholder": "width: 75px",
+		".pane-header": "padding: 0 8px",
+		".split-view-view:first-child .pane-header": "display: none !important;",
+		".monaco-list-row": "border-radius: 4px;",
+		".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
+		".breadcrumbs-below-tabs": "display: none;",
+		".decorationsOverviewRuler": "width: 0px !important;",
+		".slider, .scrollbar": "width: 5px !important; border-radius: 99px !important;"
+	},
+	"glassit.alpha": 250,
+	"prettier.enable": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"vscord.app.name": "Visual Studio Code",
+	"vscord.app.id": "782685898163617802",
+	"vscord.status.state.text.editing": "Editing {file_name}{file_extension} - {current_line}/{current_column} ☕",
+	"vscord.status.details.text.notInFile": "Idle 💤",
+	"vscord.status.state.text.idle": "Idle 💤",
+	"vscord.status.problems.text": "",
+	"vscord.status.details.text.editing": ""
 }
