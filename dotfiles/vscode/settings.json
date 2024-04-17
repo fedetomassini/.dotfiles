@@ -92,7 +92,7 @@
 		".decorationsOverviewRuler": "width: 0px !important;",
 		".slider, .scrollbar": "width: 5px !important; border-radius: 99px !important;"
 	},
-	"glassit.alpha": 250,
+	"glassit.alpha": 245,
 	"prettier.enable": true,
 	"prettier.useTabs": true,
 	"prettier.tabWidth": 4,
