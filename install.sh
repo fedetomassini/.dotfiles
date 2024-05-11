@@ -2,13 +2,11 @@
 DOTFILES_DIR="${pwd}dotfiles"
 BASHRC_SRC="$DOTFILES_DIR/bash/.bashrc"
 KITTY_SRC="$DOTFILES_DIR/kitty/kitty.conf"
-ROFI_SRC="$DOTFILES_DIR/rofi/config.rasi"
 VSCODE_SRC="$DOTFILES_DIR/vscode/settings.json"
 NEOFETCH_SRC="$DOTFILES_DIR/bash/neofetch/config.conf"
 
 BASHRC_DEST="$HOME/.bashrc"
 KITTY_DEST="$HOME/.config/kitty"
-ROFI_DEST="$HOME/.config/rofi/config"
 VSCODE_DEST="$HOME/.config/Code/User"
 NEOFETCH_DEST="$HOME/.config/neofetch"
 
@@ -36,7 +34,6 @@ copy_file() {
 # Copy files to their respective locations
 copy_file "$BASHRC_SRC" "$BASHRC_DEST"
 copy_file "$KITTY_SRC" "$KITTY_DEST"
-copy_file "$ROFI_SRC" "$ROFI_DEST"
 copy_file "$VSCODE_SRC" "$VSCODE_DEST"
 copy_file "$NEOFETCH_SRC" "$NEOFETCH_DEST"
 
