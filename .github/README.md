@@ -1,5 +1,5 @@
 <div align="center">
-  <h2><em>~ .config ~</em></h2>
+  <h2><em>~ .dotfiles ~</em></h2>
 </div>
 
 <div align="center">
@@ -16,28 +16,15 @@
 
 ## Contents
 
-This repository contains personalized configurations for the KDE Plasma desktop environment on a Debian system. The included folders are:
+This repository contains personalized configs for the KDE Plasma desktop environment on a Debian system. The included folders are:
 
-- **bash + neofetch**: *My Custom configurations for the Bash shell and neofetch.*
-- **kitty**: *My Configurations for the Kitty terminal.*
-- **latte**: *My Settings for the Latte Dock taskbar.*
-- **rofi**: *My Configurations for the Rofi application launcher.*
-- **vscode**: *My settings and extensions for Visual Studio Code - linux.*
-
-## Usage
-
-1. Clone this repository to your local machine:
-
-   ```bash
-   git clone https://github.com/fedetomassini/.config.git
-   ```
-2. Run the install script:
-
-   ```bash
-   chmod +x install.sh
-   ./install.sh
-   ```
+- **bash + neofetch**: _My Bash and neofetch configs._
+- **kitty**: _My Kitty terminal configs._
+- **latte**: _My Latte Dock taskbar configs._
+- **rofi**: _My Rofi configs._
+- **vscode**: _My Visual Studio Code settings and extensions - linux._
+- **librewolf**: _My Librewolf configs - linux._
 
 &nbsp;
 
-> All done :coffee:
+:coffee:
