@@ -16,11 +16,10 @@
 
 ## Contents
 
-This repository contains personalized configs for the KDE Plasma desktop environment on a Debian system. The included folders are:
+My linux dotfiles... The included folders are:
 
 - **bash + neofetch**: _My Bash and neofetch configs._
 - **kitty**: _My Kitty terminal configs._
-- **latte**: _My Latte Dock taskbar configs._
 - **rofi**: _My Rofi configs._
 - **vscode**: _My Visual Studio Code settings and extensions - linux._
 - **librewolf**: _My Librewolf configs - linux._
