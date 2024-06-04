@@ -4,6 +4,11 @@
 }
 
 /* Urlbar View */
+
+/*─────────────────────────────*/
+/* Comment this section if you */
+/* want to show the URL Bar    */
+/*─────────────────────────────*/
 .urlbarView {
 	display: none !important;
 }
@@ -34,6 +39,8 @@
 /* Inactive tabs color */
 #navigator-toolbox {
 	background-color: var(--sfwindow) !important;
+	--tabs-navbar-separator-style: 0px !important;
+	border: none !important;
 }
 
 /* Window colors  */
@@ -110,9 +117,6 @@
 #urlbar[focused="true"] > #urlbar-background {
 	box-shadow: none !important;
 }
-#navigator-toolbox {
-	border: none !important;
-}
 
 /* Bookmarks bar  */
 /* .bookmark-item .toolbarbutton-icon {
@@ -167,7 +171,7 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
 }
 
 /**
-Customs
+Esto es editado por mi para crear mi propia personalización...
 */
 
 #titlebar {
