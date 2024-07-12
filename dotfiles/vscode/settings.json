@@ -14,6 +14,8 @@
 		"comments": "on",
 		"other": "on"
 	},
+	"diffEditor.hideUnchangedRegions.enabled": true,
+	"scm.experimental.showHistoryGraph": true,
 	"extensions.ignoreRecommendations": true,
 	"extensions.autoCheckUpdates": true,
 	"extensions.autoUpdate": true,
@@ -28,7 +30,9 @@
 	"excalidraw.language": "en",
 	"errorLens.fontStyleItalic": true,
 	"errorLens.fontWeight": "700",
-	"npm.packageManager": "npm",
+	"errorLens.delay": 5000, // Testing
+	"errorLens.onSaveTimeout": 5000, // Testing
+	"npm.packageManager": "bun",
 	"projectManager.groupList": true,
 	"projectManager.tags": [
 		"Testing",
@@ -56,10 +60,10 @@
 	"workbench.colorCustomizations": {
 		"tree.indentGuidesStroke": "#94A684"
 	},
-	"workbench.colorTheme": "Bearded Theme Black & Ruby",
+	"workbench.colorTheme": "Bearded Theme Altica",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.startupEditor": "none",
-	"workbench.tree.indent": 15,
+	"workbench.tree.indent": 20,
 	"workbench.tree.renderIndentGuides": "always",
 	"workbench.statusBar.visible": false,
 	"workbench.layoutControl.enabled": false,
@@ -110,12 +114,5 @@
 	"vscord.status.details.text.notInFile": "Idle 💤",
 	"vscord.status.state.text.idle": "Idle 💤",
 	"vscord.status.problems.text": "",
-	"vscord.status.details.text.editing": "",
-	// Testing \\
-	"CodeGPT.query.language": "Spanish",
-	"CodeGPT.Autocomplete.enabled": true,
-	"CodeGPT.Autocomplete.provider": "OpenAI - gpt-3.5-turbo-instruct",
-	"CodeGPT.Autocomplete.maxTokens": 500,
-	"CodeGPT.Autocomplete.suggestionDelay": 3000,
-	"CodeGPT.apiKey": "GPT4All"
+	"vscord.status.details.text.editing": ""
 }

@@ -116,7 +116,7 @@ fi
 # Configs #
 ###########################
 # Neofetch #
-neofetch --off
+# neofetch --off
 # Bash + Oh My Posh #
 eval "$(oh-my-posh init bash --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/tokyonight_storm.omp.json)"
 # Spicetify #
@@ -126,7 +126,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 # Lite-XL #
-export PATH=$PATH:$HOME/.local/bin/lite-xl # { Not working }
-# Bun #
-export BUN_INSTALL="$HOME/.bun"
-export PATH=$BUN_INSTALL/bin:$PATH
+export PATH=$PATH:$HOME/.local/bin/lite-xl
