@@ -15,7 +15,6 @@
 		"other": "on"
 	},
 	"diffEditor.hideUnchangedRegions.enabled": true,
-	"scm.experimental.showHistoryGraph": true,
 	"extensions.ignoreRecommendations": true,
 	"extensions.autoCheckUpdates": true,
 	"extensions.autoUpdate": true,
@@ -58,16 +57,18 @@
 	"window.zoomLevel": -1,
 	"window.commandCenter": false,
 	"workbench.colorCustomizations": {
-		"tree.indentGuidesStroke": "#94A684"
+		"tree.indentGuidesStroke": "#8eb0e626"
 	},
-	"workbench.colorTheme": "Bearded Theme Altica",
+	"workbench.colorTheme": "Bearded Theme Arc Blueberry",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.startupEditor": "none",
 	"workbench.tree.indent": 20,
-	"workbench.tree.renderIndentGuides": "always",
+	"workbench.tree.renderIndentGuides": "onHover",
 	"workbench.statusBar.visible": false,
 	"workbench.layoutControl.enabled": false,
 	"workbench.iconTheme": "bearded-icons",
+	"workbench.experimental.enableNewProfilesUI": true,
+	"window.newWindowProfile": "Default",
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "vscode.typescript-language-features"
 	},
@@ -96,9 +97,9 @@
 		".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
 		".breadcrumbs-below-tabs": "display: none;",
 		".decorationsOverviewRuler": "width: 0px !important;",
-		".slider, .scrollbar": "width: 5px !important; border-radius: 99px !important;"
+		".slider, .scrollbar": "width: 5px !important; border-radius: 99px !important;",
+		".content.auxiliary .inline-tabs-placeholder, .no-custom-title-bar-visibility div.monaco-workbench .has-composite-bar, .no-activity-bar.nosidebar:not(.sidebar-right):not(.fullscreen) .inline-tabs-placeholder, .inline-title-bar.horizontal-activitybar .nosidebar:not(.sidebar-right).noeditorarea.monaco-workbench .part.panel.bottom .composite.title, .inline-title-bar .sidebar-right.noauxiliarybar.noeditorarea.monaco-workbench .part.panel.bottom .composite.title, .inline-title-bar:not(.statusbar-top) .monaco-workbench.mac:not(.fullscreen) .auxiliarybar.left .composite.title, .inline-title-bar.statusbar-editor-top:not(.horizontal-activitybar) .monaco-workbench.mac.no-activity-bar.nosidebar:not(.sidebar-right):not(.fullscreen) .statusbar": "padding-left: 5px !important"
 	},
-	"glassit.alpha": 245,
 	"prettier.enable": true,
 	"prettier.useTabs": true,
 	"prettier.tabWidth": 2,
@@ -106,5 +107,7 @@
 	"mdb.connectionSaving.defaultConnectionSavingLocation": "Global",
 	"mdb.sendTelemetry": false,
 	"mdb.showMongoDBHelpExplorer": false,
-	"mdb.showMongoDBPlaygrounds": false
+	"mdb.showMongoDBPlaygrounds": false,
+	"gitlens.telemetry.enabled": false,
+	"gitlens.plusFeatures.enabled": false
 }
