@@ -21,16 +21,18 @@
 	"explorer.compactFolders": false,
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
-		"tailwind.config.js": "tailwind.config*, postcss.config*",
+		"biome.json": ".eslintrc.*",
+		"tailwind.config.ts": "tailwind.config*, postcss.config*",
 		".env.local": ".env*",
-		".env": ".env*"
+		".env": ".env*",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, .gitignore"
 	},
 	"excalidraw.theme": "dark",
 	"excalidraw.language": "en",
 	"errorLens.fontStyleItalic": true,
 	"errorLens.fontWeight": "700",
-	"errorLens.delay": 5000, // Testing
-	"errorLens.onSaveTimeout": 5000, // Testing
+	"errorLens.delay": 5000,
+	"errorLens.onSaveTimeout": 5000,
 	"npm.packageManager": "bun",
 	"projectManager.groupList": true,
 	"projectManager.tags": [
@@ -49,8 +51,8 @@
 	"terminal.integrated.shellIntegration.history": 5,
 	"terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.cursorStyle": "underline",
-	"terminal.external.linuxExec": "kitty",
 	"terminal.integrated.persistentSessionScrollback": 0,
+	"terminal.external.linuxExec": "kitty",
 	"telemetry.telemetryLevel": "off",
 	"window.menuBarVisibility": "compact",
 	"window.titleBarStyle": "native",
