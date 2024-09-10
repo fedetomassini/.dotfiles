@@ -1,1 +1,1 @@
-/home/{user}/.vscode/scripts/
+/home/{user}/.vscode/main.css

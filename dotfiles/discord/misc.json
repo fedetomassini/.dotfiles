@@ -1,0 +1,16 @@
+{
+    "version": "1.10.2",
+    "addonlistControls": {
+        "plugin": {
+            "view": "list"
+        }
+    },
+    "drawerStates": {
+        "settings": {
+            "developer": false,
+            "general": false,
+            "addons": false,
+            "window": false
+        }
+    }
+}

@@ -23,11 +23,12 @@
 	"explorer.compactFolders": false,
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, .gitignore",
 		"biome.json": ".eslintrc.*",
 		"tailwind.config.ts": "tailwind.config*, postcss.config*",
 		".env.local": ".env*",
-		".env": ".env*",
-		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, .gitignore"
+		".env": ".env*"
 	},
 	"excalidraw.theme": "dark",
 	"excalidraw.language": "en",
@@ -37,14 +38,7 @@
 	"errorLens.onSaveTimeout": 3500,
 	"npm.packageManager": "bun",
 	"projectManager.groupList": true,
-	"projectManager.tags": [
-		"Testing",
-		"Main",
-		"Work",
-		"Personal",
-		"Archived",
-		"Learning"
-	],
+	"projectManager.tags": ["Main", "Work", "Personal", "Archived"],
 	"projectManager.sortList": "Name",
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"terminal.integrated.defaultProfile.linux": "bash",
@@ -74,9 +68,6 @@
 	"workbench.statusBar.visible": false,
 	"workbench.layoutControl.enabled": false,
 	"workbench.iconTheme": "bearded-icons",
-	"workbench.experimental.enableNewProfilesUI": true,
-	"workbench.activityBar.iconClickBehavior": "focus",
-	"workbench.activityBar.location": "top",
 	"window.newWindowProfile": "Default",
 	"window.customTitleBarVisibility": "never",
 	"[typescriptreact]": {
@@ -101,6 +92,9 @@
 		"height": 26,
 		"fontSize": 14
 	},
+	"apc.activityBar": {
+		"itemSize": 38
+	},
 	"apc.imports": ["/home/fedetomassini/.vscode/scripts/resize.js"],
 	"apc.stylesheet": {
 		".nosidebar .inline-tabs-placeholder": "width: 75px;",
@@ -111,8 +105,8 @@
 		".breadcrumbs-below-tabs": "display: none;",
 		".decorationsOverviewRuler": "width: 0px !important;",
 		".slider, .scrollbar": "width: 5px !important; border-radius: 99px !important;",
-		".content.auxiliary .inline-tabs-placeholder, .no-custom-title-bar-visibility div.monaco-workbench .has-composite-bar, .no-activity-bar.nosidebar:not(.sidebar-right):not(.fullscreen) .inline-tabs-placeholder, .inline-title-bar.horizontal-activitybar .nosidebar:not(.sidebar-right).noeditorarea.monaco-workbench .part.panel.bottom .composite.title, .inline-title-bar .sidebar-right.noauxiliarybar.noeditorarea.monaco-workbench .part.panel.bottom .composite.title, .inline-title-bar:not(.statusbar-top) .monaco-workbench.mac:not(.fullscreen) .auxiliarybar.left .composite.title, .inline-title-bar.statusbar-editor-top:not(.horizontal-activitybar) .monaco-workbench.mac.no-activity-bar.nosidebar:not(.sidebar-right):not(.fullscreen) .statusbar": "padding-left: 5px !important;"
-		// ".quick-input-widget": "width: 100% !important; left: 300px; font-size: 14px;" // Testing
+		".content.auxiliary .inline-tabs-placeholder, .no-custom-title-bar-visibility div.monaco-workbench .has-composite-bar, .no-activity-bar.nosidebar:not(.sidebar-right):not(.fullscreen) .inline-tabs-placeholder, .inline-title-bar.horizontal-activitybar .nosidebar:not(.sidebar-right).noeditorarea.monaco-workbench .part.panel.bottom .composite.title, .inline-title-bar .sidebar-right.noauxiliarybar.noeditorarea.monaco-workbench .part.panel.bottom .composite.title, .inline-title-bar:not(.statusbar-top) .monaco-workbench.mac:not(.fullscreen) .auxiliarybar.left .composite.title, .inline-title-bar.statusbar-editor-top:not(.horizontal-activitybar) .monaco-workbench.mac.no-activity-bar.nosidebar:not(.sidebar-right):not(.fullscreen) .statusbar": "padding-left: 5px !important;",
+		".quick-input-widget": "font-size: 14px !important;" // Testing
 	},
 	"prettier.enable": true,
 	"prettier.useTabs": true,
@@ -123,5 +117,6 @@
 	"mdb.showMongoDBHelpExplorer": false,
 	"mdb.showMongoDBPlaygrounds": false,
 	"gitlens.telemetry.enabled": false,
-	"gitlens.plusFeatures.enabled": false
+	"gitlens.plusFeatures.enabled": false,
+	"gitlens.views.repositories.files.layout": "tree"
 }
