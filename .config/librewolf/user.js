@@ -33,23 +33,15 @@ user_pref("network.predictor.enabled", false);
 user_pref("network.predictor.enable-prefetch", false);
 
 /** EXPERIMENTAL ***/
-user_pref("layout.css.grid-template-masonry-value.enabled", true);
 user_pref("dom.enable_web_task_scheduling", true);
-user_pref("dom.security.sanitizer.enabled", true);
 
 /****************************************************************************
  * SECTION: SECUREFOX                                                       *
- ****************************************************************************/
+****************************************************************************/
 /** TRACKING PROTECTION ***/
 user_pref("browser.contentblocking.category", "strict");
-user_pref(
-	"urlclassifier.trackingSkipURLs",
-	"*.reddit.com, *.twitter.com, *.twimg.com, *.tiktok.com"
-);
-user_pref(
-	"urlclassifier.features.socialtracking.skipURLs",
-	"*.instagram.com, *.twitter.com, *.twimg.com"
-);
+user_pref("urlclassifier.trackingSkipURLs", "*.reddit.com, *.twitter.com, *.twimg.com, *.tiktok.com");
+user_pref("urlclassifier.features.socialtracking.skipURLs", "*.instagram.com, *.twitter.com, *.twimg.com");
 user_pref("network.cookie.sameSite.noneRequiresSecure", true);
 user_pref("browser.download.start_downloads_in_tmp_dir", true);
 user_pref("browser.helperApps.deleteTempFileOnExit", true);
@@ -100,17 +92,15 @@ user_pref("editor.truncate_user_pastes", false);
 /** MIXED CONTENT + CROSS-SITE ***/
 user_pref("security.mixed_content.block_display_content", true);
 user_pref("pdfjs.enableScripting", false);
-user_pref("extensions.postDownloadThirdPartyPrompt", false);
+
+/** EXTENSIONS ***/
+user_pref("extensions.enabledScopes", 5);
 
 /** HEADERS / REFERERS ***/
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 
 /** CONTAINERS ***/
 user_pref("privacy.userContext.ui.enabled", true);
-
-/** WEBRTC ***/
-user_pref("media.peerconnection.ice.proxy_only_if_behind_proxy", true);
-user_pref("media.peerconnection.ice.default_address_only", true);
 
 /** SAFE BROWSING ***/
 user_pref("browser.safebrowsing.downloads.remote.enabled", false);
@@ -156,21 +146,15 @@ user_pref("network.connectivity-service.enabled", false);
 
 /****************************************************************************
  * SECTION: PESKYFOX                                                        *
- ****************************************************************************/
+****************************************************************************/
 /** MOZILLA UI ***/
 user_pref("browser.privatebrowsing.vpnpromourl", "");
 user_pref("extensions.getAddons.showPane", false);
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 user_pref("browser.discovery.enabled", false);
 user_pref("browser.shell.checkDefaultBrowser", false);
-user_pref(
-	"browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons",
-	false
-);
-user_pref(
-	"browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features",
-	false
-);
+user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
+user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
 user_pref("browser.preferences.moreFromMozilla", false);
 user_pref("browser.aboutConfig.showWarning", false);
 user_pref("browser.aboutwelcome.enabled", false);
@@ -185,10 +169,7 @@ user_pref("browser.display.focus_ring_style", 0);
 user_pref("browser.display.focus_ring_width", 0);
 user_pref("layout.css.prefers-color-scheme.content-override", 2);
 user_pref("browser.privateWindowSeparation.enabled", false); // WINDOWS
-user_pref(
-	"browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled",
-	true
-);
+user_pref("browser.newtabpage.activity-stream.newtabWallpapers.v2.enabled", true);
 
 /** COOKIE BANNER HANDLING ***/
 user_pref("cookiebanners.service.mode", 1);
@@ -204,9 +185,11 @@ user_pref("full-screen-api.warning.timeout", 0);
 user_pref("browser.urlbar.suggest.calculator", true);
 user_pref("browser.urlbar.unitConversion.enabled", true);
 user_pref("browser.urlbar.trending.featureGate", false);
+user_pref("dom.text_fragments.enabled", true);
 
 /** NEW TAB PAGE ***/
 user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
+user_pref("browser.newtabpage.activity-stream.showWeather", false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
 
 /** POCKET ***/
