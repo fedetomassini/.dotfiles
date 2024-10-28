@@ -1,7 +1,7 @@
 
 :root {
-  --sfwindow: #19171a; /*Default #19171a */
-  --sfsecondary: #201e21; /* Default #201e21 */
+  --sfwindow: #181825; /*Default #19171a */
+  --sfsecondary: #181825; /* Default #201e21 */
 }
 
 /* Urlbar View */
@@ -36,6 +36,7 @@
   background-image: none !important;
   background-color: var(--toolbar-bgcolor) !important;
 }
+#tab-preview-panel {display: none !important;}
 
 /* Inactive tabs color */
 #navigator-toolbox {
@@ -140,7 +141,7 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
   display: none !important;
 }
 .urlbarView-url {
-  color: #dedede !important;
+  color: #181825 !important;
 }
 
 /* Disable elements  */
@@ -178,7 +179,7 @@ Esto es editado por mi para crear mi propia personalización...
 */
 
 #titlebar{
-  background-color: #1b1b1b !important;
+  background-color: #181825 !important;
   box-shadow: 0px !important;
 }
 
@@ -189,7 +190,8 @@ Esto es editado por mi para crear mi propia personalización...
   box-shadow: 0px !important;
 }
 
-.tabbrowser-tab:not([pinned]) {
+
+.tabbrowser-tab[fadein]:not([pinned])  {
   max-width: 140px !important;
 }
 #tabbrowser-tabs:not([secondarytext-unsupported]) {
@@ -215,7 +217,7 @@ html#main-window body popupset#mainPopupSet menupopup#contentAreaContextMenu men
 menupopup, panel {
 	color-scheme: light dark;
 	min-width: 1px;
-	--panel-background: #1c1c1c !important;
+	--panel-background: #181825 !important;
 	--panel-color: MenuText;
 	--panel-padding-block: 4px;
 	--panel-padding: var(--panel-padding-block) 0;

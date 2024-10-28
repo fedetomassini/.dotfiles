@@ -11,9 +11,14 @@
 	.customize-animate-enter-done,.customize-menu,.top-site-outer:hover,button{background-color: transparent!important}}
 	
 	/*  Newtab  */
+	@-moz-document url("about:blank") {
+		:root {
+			background-color: #181825 !important;
+	}
+	}
 	@-moz-document url("about:home"), url("about:newtab"){
 			body{
-					background-color: #201e21 !important;
+					background-color: #181825 !important;
 			}
 	main{margin-top: 33vh !important;}
 	.search-wrapper .search-handoff-button .fake-caret {top: 13px !important; inset-inline-start: 48px !important}
