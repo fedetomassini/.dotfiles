@@ -118,9 +118,9 @@
   // ProjectManager
   "projectManager.groupList": true,
   "projectManager.tags": [
-    "web-dev",
-    "personal",
-    "others"
+    "main",
+    "tests",
+    "unrelated"
   ],
   "projectManager.sortList": "Name",
 
@@ -190,5 +190,9 @@
   // Language-specific settings
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "hediet.vscode-drawio.resizeImages": null,
+  "gitlens.advanced.messages": {
+    "suppressCreatePullRequestPrompt": true
   }
 }
