@@ -4,6 +4,7 @@
   "editor.fontSize": 15,
   "editor.fontWeight": "normal",
   "editor.fontFamily": "'iMWritingMono Nerd Font'",
+  "errorLens.fontFamily": "'iMWritingMono Nerd Font'",
   "editor.tabSize": 2,
   "editor.indentSize": "tabSize",
   "editor.linkedEditing": true,
@@ -15,13 +16,14 @@
     "comments": "on",
     "other": "on"
   },
+  "editor.experimental.treeSitterTelemetry": false,
   "diffEditor.hideUnchangedRegions.enabled": true,
   "window.menuBarVisibility": "hidden",
   "window.titleBarStyle": "native",
   "window.zoomLevel": -1,
   "window.commandCenter": false,
   "window.newWindowProfile": "Default",
-  "window.customTitleBarVisibility": "never",
+  "window.customTitleBarVisibility": "auto",
 
   // Workbench
   "workbench.colorCustomizations": {
@@ -29,14 +31,12 @@
     "editorOverviewRuler.background": "#1e1e2e", 
   },
   "workbench.colorTheme": "Catppuccin Mocha",
-  "catppuccin-noctis-icons.hidesExplorerArrows": false,
-  "workbench.iconTheme": "catppuccin noctis icons",
-  "workbench.productIconTheme": "material-product-icons",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 20,
   "workbench.tree.renderIndentGuides": "onHover",
   "workbench.statusBar.visible": false,
   "workbench.layoutControl.enabled": false,
+  "workbench.iconTheme": "bearded-icons",
 
   // Catppuccin Theme 
   "catppuccin.accentColor": "blue",
@@ -63,7 +63,7 @@
     "*.jsx": "${capture}.js",
     "*.tsx": "${capture}.ts",
     "tsconfig.json": "tsconfig.*.json",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, .gitignore",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lock, .gitignore",
     "biome.json": ".eslintrc.*",
     "tailwind.config.ts": "tailwind.config*, postcss.config*",
     ".env.local": ".env*",
@@ -117,9 +117,10 @@
   // ProjectManager
   "projectManager.groupList": true,
   "projectManager.tags": [
-    "main",
+    "web",
+    "java",
+    "work",
     "tests",
-    "unrelated"
   ],
   "projectManager.sortList": "Name",
 
@@ -165,8 +166,8 @@
 
   // CustomCSS and JS Loader
   "vscode_custom_css.imports": [
-    "file:///home/fedetomassini/.config/Code/User/custom-vscode.css"
-    // "file:///home/fedetomassini/.config/Code/User/vscode-script.js",
+    "file:///home/fedetomassini/.config/Code/User/custom-vscode.css",
+    "file:///home/fedetomassini/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
   ],
 
   // LiveShare
@@ -199,5 +200,6 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
+  "database-client.telemetry.usesOnlineServices": false,
   "database-client.autoSync": true,
 }

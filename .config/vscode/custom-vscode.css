@@ -58,17 +58,18 @@
 }
 
 .composite.title h2 {
+  font-family: 'iMWritingMono Nerd Font';
   font-weight: bold !important;
-  font-size: 12px !important;
+  font-size: 11px !important;
   text-transform: uppercase;
   color: #bc9abc !important;
 }
 
 .composite.title h2::before {
-  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Twemoji Mozilla', sans-serif !important;
+  font-family: 'iMWritingMono Nerd Font' !important;
   display: inline-block;
   margin-right: 6px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   content: '☕';
 }
 
@@ -132,10 +133,11 @@
 }
 
 .quick-input-filter .monaco-inputbox {
-  border-radius: 12px !important;
+  border-radius: 0px !important;
+  outline: none !important;
   padding: 8px !important;
   border: none !important;
-  background-color: rgba(34, 34, 34, .40) !important;
+  background-color: #1e1e2e !important;
   font-size: 14px !important;
   margin-bottom: 16px !important;
 }
