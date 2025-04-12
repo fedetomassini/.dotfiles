@@ -10,7 +10,7 @@
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.smoothScrolling": true,
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "editor.quickSuggestions": {
     "strings": "on",
     "comments": "on",
@@ -24,12 +24,6 @@
   "window.commandCenter": false,
   "window.newWindowProfile": "Default",
   "window.customTitleBarVisibility": "auto",
-
-  // Workbench
-  "workbench.colorCustomizations": {
-    "tree.indentGuidesStroke": "#1e1e2e",
-    "editorOverviewRuler.background": "#1e1e2e"
-  },
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 20,
   "workbench.tree.renderIndentGuides": "onHover",
@@ -37,24 +31,7 @@
   "workbench.layoutControl.enabled": false,
   "workbench.iconTheme": "bearded-icons",
   "workbench.productIconTheme": "material-product-icons",
-  "workbench.colorTheme": "Bearded Theme Black & Ruby",
-
-  // Catppuccin Theme 
-  "catppuccin.accentColor": "blue",
-  "catppuccin.customUIColors": {
-    "mocha": {
-      "commandCenter.background": "base",
-      "commandCenter.border": "base",
-      "quickInput.background": "base",
-      "quickInputTitle.background": "base",
-      "editor.findMatchBackground": "base",
-      "notificationToast.border": "base",
-      "sideBar.background": "base",
-      "activityBar.background": "base",
-      "editorGroupHeader.tabsBackground": "base"
-    }
-  },
-
+  "workbench.colorTheme": "Bearded Theme Stained Blue",
   // Explorer
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
@@ -76,111 +53,62 @@
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*"
   },
-
   // Terminal
   "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.windows": null,
   "terminal.integrated.tabs.defaultColor": "terminal.ansiBlue",
   "terminal.integrated.env.windows": {},
   "terminal.integrated.shellIntegration.history": 5,
   "terminal.integrated.suggest.enabled": true,
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.persistentSessionScrollback": 0,
   "terminal.external.linuxExec": "kitty",
   "terminal.integrated.fontFamily": "'iMWritingMono Nerd Font'",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.env.linux": {},
-
   // Extensions
   "extensions.ignoreRecommendations": true,
   "extensions.autoCheckUpdates": true,
   "extensions.autoUpdate": true,
-
   // Updates
   "update.mode": "manual",
-
   // Telemetry
   "telemetry.telemetryLevel": "off",
-
   // Excalidraw
   "excalidraw.theme": "dark",
   "excalidraw.language": "en",
-
   // ErrorLens
   "errorLens.fontStyleItalic": true,
   "errorLens.fontWeight": "700",
-  "errorLens.delay": 3500,
-  "errorLens.onSaveTimeout": 3500,
-
+  //"errorLens.delay": 3500,
+  //"errorLens.onSaveTimeout": 3500,
   // NPM
   "npm.packageManager": "bun",
-
   // ProjectManager
   "projectManager.groupList": true,
+  "projectManager.sortList": "Name",
   "projectManager.tags": [
     "web",
     "java",
     "work",
-    "tests"
+    "tests",
   ],
-  "projectManager.sortList": "Name",
-
   // CSS/SCSS
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
-
-  // APC => Deprecated since 1.93
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 11,
-      "y": 10
-    },
-    "frame": false
-  },
-  "apc.header": {
-    "height": 34,
-    "fontSize": 15
-  },
-  "apc.listRow": {
-    "height": 26,
-    "fontSize": 15
-  },
-  "apc.activityBar": {
-    "itemSize": 38
-  },
-  "apc.imports": [
-    "/home/fedetomassini/.vscode/main.css"
-  ],
-  "apc.stylesheet": { 
-    ".nosidebar .inline-tabs-placeholder": "width: 75px;",
-    ".pane-header": "padding: 0 8px;",
-    ".split-view-view:first-child .pane-header": "display: none !important;",
-    ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;",
-    ".breadcrumbs-below-tabs": "display: none;",
-    ".decorationsOverviewRuler": "width: 0px !important;",
-    ".slider, .scrollbar": "width: 3px !important; border-radius: 99px !important;",
-    ".content.auxiliary .inline-tabs-placeholder, .no-custom-title-bar-visibility div.monaco-workbench .has-composite-bar, .no-activity-bar.nosidebar:not(.sidebar-right):not(.fullscreen) .inline-tabs-placeholder, .inline-title-bar.horizontal-activitybar .nosidebar:not(.sidebar-right).noeditorarea.monaco-workbench .part.panel.bottom .composite.title, .inline-title-bar .sidebar-right.noauxiliarybar.noeditorarea.monaco-workbench .part.panel.bottom .composite.title, .inline-title-bar:not(.statusbar-top) .monaco-workbench.mac:not(.fullscreen) .auxiliarybar.left .composite.title, .inline-title-bar.statusbar-editor-top:not(.horizontal-activitybar) .monaco-workbench.mac.no-activity-bar.nosidebar:not(.sidebar-right):not(.fullscreen) .statusbar": "padding-left: 5px !important;",
-    ".quick-input-widget": "font-size: 14px !important;"
-  },
-
   // CustomCSS and JS Loader
   "vscode_custom_css.imports": [
     "file:///home/fedetomassini/.config/Code/User/custom-vscode.css",
-    "file:///home/fedetomassini/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
   ],
-
   // LiveShare
   "liveshare.accessibility.voiceEnabled": false,
-
   // MongoDB
   "mdb.connectionSaving.defaultConnectionSavingLocation": "Global",
   "mdb.sendTelemetry": false,
   "mdb.showMongoDBHelpExplorer": false,
   "mdb.showMongoDBPlaygrounds": false,
-
   // GitLens
   "gitlens.telemetry.enabled": false,
   "gitlens.plusFeatures.enabled": false,
@@ -188,7 +116,6 @@
   "gitlens.advanced.messages": {
     "suppressCreatePullRequestPrompt": true
   },
-
   // VSCord
   "vscord.app.name": "Visual Studio Code",
   "vscord.app.id": "782685898163617802",
@@ -197,17 +124,14 @@
   "vscord.status.state.text.idle": "Idle 💤",
   "vscord.status.problems.text": "",
   "vscord.status.details.text.editing": "",
-
   // Language-specific settings
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-
   // Snippets
   "jsJsxSnippets.settings.importReactOnTop": true,
   "jsJsxSnippets.settings.semicolon": true,
   "jsJsxSnippets.settings.typing": true,
-
   // Git Graph
   "git-graph.commitDetailsView.autoCenter": true,
   "git-graph.defaultColumnVisibility": {
@@ -216,8 +140,7 @@
     "Commit": true
   },
   "git-graph.date.format": "Date & Time",
-  
   // Database & NoSQL
   "database-client.autoSync": true,
-  "database-client.telemetry.usesOnlineServices": false
+  "database-client.telemetry.usesOnlineServices": false,
 }

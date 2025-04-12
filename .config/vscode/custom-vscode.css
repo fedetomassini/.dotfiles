@@ -1,9 +1,26 @@
-/* Code comment style */
+/*───────────────────────────────────────────────
+  🌙 CUSTOM OVERRIDES
+───────────────────────────────────────────────*/
+
+:root {
+  --color-bg: #121726;
+  --color-fg: #bec6df;
+  --color-accent: #3A7FFF;
+  --color-muted: #3c4c7c;
+  --color-sidebar-selected: #4f5971;
+  --font-mono: 'iMWritingMono Nerd Font';
+}
+
+/*───────────────────────────────────────────────
+  🎨 SYNTAX HIGHLIGHTING
+───────────────────────────────────────────────*/
 .mtk3 {
   color: #008c7d !important;
 }
 
-/* Line numbers */
+/*───────────────────────────────────────────────
+  🔢 LINE NUMBERS
+───────────────────────────────────────────────*/
 .line-numbers {
   position: relative !important;
   width: 35px !important;
@@ -11,22 +28,57 @@
   opacity: .3;
 }
 
-/* Code canvas top shadow */
+/*───────────────────────────────────────────────
+  ☁️ SCROLLBARS & DECORATIONS
+───────────────────────────────────────────────*/
 .monaco-editor .scroll-decoration {
   top: -6px !important;
 }
 
-/* Toolbars when tabs are enabled */
+.monaco-scrollable-element>.shadow.top {
+  top: -3px !important;
+}
+
+.slider {
+  position: absolute !important;
+  right: 1px !important;
+  width: 1px !important;
+  left: auto !important;
+}
+
+/*───────────────────────────────────────────────
+  🛠 TOOLBARS & ACTION ICONS
+───────────────────────────────────────────────*/
 .monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.editor-group-container:hover .editor-actions {
+  opacity: 1;
+}
+
+.codicon-toolbar-more,
+.codicon-word-wrap {
+  display: block !important;
+}
+
+.titlebar-right>* {
   display: none !important;
 }
 
-/* File Explorer */
+.monaco-workbench .part.sidebar .title-actions .actions-container {
+  display: none;
+}
+
+/*───────────────────────────────────────────────
+  🗂 FILE EXPLORER
+───────────────────────────────────────────────*/
 .monaco-list.list_id_1 .monaco-list-row.selected {
-  background-color: #4f5971 !important;
+  background-color: var(--color-sidebar-selected) !important;
   opacity: 1 !important;
-  border-top: 1px #727b90 solid;
-  border-bottom: 1px #727b90 solid;
+  border-top: 1px var(--color-muted) solid;
+  border-bottom: 1px var(--color-muted) solid;
 }
 
 .monaco-list.list_id_1 .monaco-list-row.selected .label-name {
@@ -40,16 +92,9 @@
   font-weight: 400 !important;
 }
 
-/* File Explorer action buttons */
-.monaco-workbench .part.sidebar .title-actions .actions-container {
-  display: none;
-}
-
-/* Sidebar */
-.monaco-scrollable-element>.shadow.top {
-  top: -3px !important;
-}
-
+/*───────────────────────────────────────────────
+  📂 SIDEBAR HEADER
+───────────────────────────────────────────────*/
 .composite.title {
   display: flex !important;
   flex-direction: row !important;
@@ -58,7 +103,7 @@
 }
 
 .composite.title h2 {
-  font-family: 'iMWritingMono Nerd Font';
+  font-family: var(--font-mono);
   font-weight: bold !important;
   font-size: 11px !important;
   text-transform: uppercase;
@@ -66,35 +111,16 @@
 }
 
 .composite.title h2::before {
-  font-family: 'iMWritingMono Nerd Font' !important;
+  font-family: var(--font-mono) !important;
   display: inline-block;
   margin-right: 6px;
   font-size: 1rem;
   content: '☕';
 }
 
-/* Scroll Bar */
-.slider {
-  position: absolute !important;
-  right: 1px !important;
-  width: 1px !important;
-  left: auto !important;
-}
-
-.codicon-toolbar-more,
-.codicon-word-wrap {
-  display: block !important;
-}
-
-/* Tooltip box style */
-.monaco-editor-hover,
-.monaco-hover {
-  padding: 10px !important;
-  border-radius: 20px !important;
-  border: none !important;
-}
-
-/* Project title */
+/*───────────────────────────────────────────────
+  🪧 TITLEBAR & PROJECT NAME
+───────────────────────────────────────────────*/
 .monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
   border: none !important;
   background: transparent !important;
@@ -106,7 +132,37 @@
   width: auto !important;
 }
 
-/* Search */
+.command-center-center {
+  width: auto !important;
+}
+
+/*───────────────────────────────────────────────
+  🔎 COMMAND PALETTE
+───────────────────────────────────────────────*/
+.quick-input-widget {
+  transform: translateY(-50%) !important;
+  top: 50% !important;
+  padding: 10px 10px 18px 10px !important;
+  border-radius: 20px !important;
+}
+
+.quick-input-filter .monaco-inputbox {
+  border-radius: 0 !important;
+  outline: none !important;
+  padding: 8px !important;
+  border: none !important;
+  background-color: var(--color-bg) !important;
+  font-size: 14px !important;
+  margin-bottom: 16px !important;
+}
+
+.monaco-inputbox input::placeholder {
+  color: rgba(255, 255, 255, .3) !important;
+}
+
+/*───────────────────────────────────────────────
+  🔍 SEARCH PANEL
+───────────────────────────────────────────────*/
 .search-label {
   font-size: 14px !important;
   color: #fff;
@@ -120,33 +176,9 @@
   display: none !important;
 }
 
-.titlebar-right > * {
-  display: none !important;
-}
-
-/* Command Palette */
-.quick-input-widget {
-  transform: translateY(-50%) !important;
-  top: 50% !important;
-  padding: 10px 10px 18px 10px !important;
-  border-radius: 20px !important;
-}
-
-.quick-input-filter .monaco-inputbox {
-  border-radius: 0px !important;
-  outline: none !important;
-  padding: 8px !important;
-  border: none !important;
-  background-color: #1e1e2e !important;
-  font-size: 14px !important;
-  margin-bottom: 16px !important;
-}
-
-.monaco-inputbox input::placeholder {
-  color: rgba(255, 255, 255, .3) !important;
-}
-
-/* Miscellaneous */
+/*───────────────────────────────────────────────
+  🔧 MISC
+───────────────────────────────────────────────*/
 .monaco-list-rows {
   background: transparent !important;
 }
@@ -159,10 +191,6 @@
   max-width: none !important;
 }
 
-.command-center-center {
-  width: auto !important;
-}
-
 .part .activitybar .left .bordered {
   background-color: rgb(30 32 44) !important;
   border-color: rgb(30 32 44) !important;
@@ -173,9 +201,9 @@
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab {
-  background-color: #1e1e2e !important;
+  background-color: var(--color-bg) !important;
 }
 
 .letterpress {
   display: none !important;
-} 
+}
