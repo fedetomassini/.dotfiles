@@ -1,6 +1,5 @@
 {
   // Editor
-  "editor.cursorBlinking": "expand",
   "editor.fontSize": 15,
   "editor.fontWeight": "normal",
   "editor.fontFamily": "'iMWritingMono Nerd Font'",
@@ -10,7 +9,10 @@
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
   "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "biomejs.biome",
   "editor.quickSuggestions": {
     "strings": "on",
     "comments": "on",
@@ -29,6 +31,7 @@
   "workbench.tree.renderIndentGuides": "onHover",
   "workbench.statusBar.visible": false,
   "workbench.layoutControl.enabled": false,
+  "workbench.list.smoothScrolling": true,
   "workbench.iconTheme": "bearded-icons",
   "workbench.productIconTheme": "material-product-icons",
   "workbench.colorTheme": "Bearded Theme Stained Blue",
@@ -60,8 +63,9 @@
   "terminal.integrated.env.windows": {},
   "terminal.integrated.shellIntegration.history": 5,
   "terminal.integrated.suggest.enabled": true,
-  "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.persistentSessionScrollback": 0,
   "terminal.external.linuxExec": "kitty",
   "terminal.integrated.fontFamily": "'iMWritingMono Nerd Font'",
@@ -86,15 +90,6 @@
   //"errorLens.onSaveTimeout": 3500,
   // NPM
   "npm.packageManager": "bun",
-  // ProjectManager
-  "projectManager.groupList": true,
-  "projectManager.sortList": "Name",
-  "projectManager.tags": [
-    "web",
-    "java",
-    "work",
-    "tests",
-  ],
   // CSS/SCSS
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
@@ -115,6 +110,18 @@
   "gitlens.views.repositories.files.layout": "tree",
   "gitlens.advanced.messages": {
     "suppressCreatePullRequestPrompt": true
+  },
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": false,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": false,
+    "launchpad": false
   },
   // VSCord
   "vscord.app.name": "Visual Studio Code",
@@ -143,4 +150,8 @@
   // Database & NoSQL
   "database-client.autoSync": true,
   "database-client.telemetry.usesOnlineServices": false,
+  // Biome 
+  "biome.enabled": true,
+  // Agent (Test)
+  "chat.agent.enabled": false,
 }
