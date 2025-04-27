@@ -3,7 +3,6 @@
   "editor.fontSize": 15,
   "editor.fontWeight": "normal",
   "editor.fontFamily": "'iMWritingMono Nerd Font'",
-  "errorLens.fontFamily": "'iMWritingMono Nerd Font'",
   "editor.tabSize": 2,
   "editor.indentSize": "tabSize",
   "editor.linkedEditing": true,
@@ -80,16 +79,23 @@
   "update.mode": "manual",
   // Telemetry
   "telemetry.telemetryLevel": "off",
+  "telemetry.feedback.enabled": false,
   // Excalidraw
   "excalidraw.theme": "dark",
   "excalidraw.language": "en",
   // ErrorLens
   "errorLens.fontStyleItalic": true,
   "errorLens.fontWeight": "700",
+  "errorLens.fontFamily": "'iMWritingMono Nerd Font'",
   //"errorLens.delay": 3500,
   //"errorLens.onSaveTimeout": 3500,
   // NPM
   "npm.packageManager": "bun",
+  // Projects Manager 
+  "l13Projects.confirmDeleteFavorite": true,
+  "l13Projects.confirmDeleteProject": true,
+  "l13Projects.confirmDeleteTag": true,
+  "l13Projects.confirmOpenMultipleWindows": true,
   // CSS/SCSS
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
@@ -111,6 +117,11 @@
   "gitlens.advanced.messages": {
     "suppressCreatePullRequestPrompt": true
   },
+  "gitlens.launchpad.indicator.enabled": false,
+  "gitlens.ai.generateCommitMessage.enabled": false,
+  "gitlens.liveshare.enabled": false,
+  "gitlens.home.preview.enabled": true,
+  "gitlens.showWhatsNewAfterUpgrades": false,
   "gitlens.views.scm.grouped.views": {
     "commits": true,
     "branches": true,
@@ -121,7 +132,7 @@
     "contributors": true,
     "repositories": false,
     "searchAndCompare": false,
-    "launchpad": false
+    "launchpad": true
   },
   // VSCord
   "vscord.app.name": "Visual Studio Code",
