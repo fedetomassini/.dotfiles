@@ -33,7 +33,7 @@
   "workbench.list.smoothScrolling": true,
   "workbench.iconTheme": "bearded-icons",
   "workbench.productIconTheme": "material-product-icons",
-  "workbench.colorTheme": "Bearded Theme Stained Blue",
+  "workbench.colorTheme": "Bearded Theme Monokai Reversed",
   // Explorer
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
@@ -101,7 +101,7 @@
   "scss.lint.unknownAtRules": "ignore",
   // CustomCSS and JS Loader
   "vscode_custom_css.imports": [
-    "file:///home/fedetomassini/.config/Code/User/custom-vscode.css",
+    "file:///home/fedetomassini/.config/Code/User/custom-vscode.css"
   ],
   // LiveShare
   "liveshare.accessibility.voiceEnabled": false,
@@ -165,4 +165,8 @@
   "biome.enabled": true,
   // Agent (Test)
   "chat.agent.enabled": false,
+  //
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  }
 }
