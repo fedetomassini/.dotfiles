@@ -1,4 +1,3 @@
-
 :root {
   --sfwindow: #181825; /*Default #19171a */
   --sfsecondary: #181825; /* Default #201e21 */
@@ -23,20 +22,14 @@
 */
 
 /* Tabs colors  */
-#tabbrowser-tabs:not([movingtab])
-  > #tabbrowser-arrowscrollbox
-  > .tabbrowser-tab
-  > .tab-stack
-  > .tab-background[multiselected='true'],
-#tabbrowser-tabs:not([movingtaf])
-  > #tabbrowser-arrowscrollbox
-  > .tabbrowser-tab
-  > .tab-stack
-  > .tab-background[selected='true'] {
+#tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[multiselected="true"],
+#tabbrowser-tabs:not([movingtaf]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[selected="true"] {
   background-image: none !important;
   background-color: var(--toolbar-bgcolor) !important;
 }
-#tab-preview-panel {display: none !important;}
+#tab-preview-panel {
+  display: none !important;
+}
 
 /* Inactive tabs color */
 #navigator-toolbox {
@@ -78,12 +71,10 @@
 .tabbrowser-tab:not([pinned]):hover .tab-close-button {
   display: block !important;
 }
-#nav-bar:not([tabs-hidden='true']) {
+#nav-bar:not([tabs-hidden="true"]) {
   box-shadow: none;
 }
-#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])
-  > #tabbrowser-arrowscrollbox
-  > .tabbrowser-tab[first-visible-unpinned-tab] {
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab[first-visible-unpinned-tab] {
   margin-inline-start: 0 !important;
 }
 :root {
@@ -99,13 +90,10 @@
   border-right: 0px solid rgba(0, 0, 0, 0) !important;
   margin-left: -4px !important;
 }
-.tabbrowser-tab:is([visuallyselected='true'],
-[multiselected])
-  > .tab-stack
-  > .tab-background {
+.tabbrowser-tab:is([visuallyselected="true"], [multiselected]) > .tab-stack > .tab-background {
   box-shadow: none !important;
 }
-.tabbrowser-tab[last-visible-tab='true'] {
+.tabbrowser-tab[last-visible-tab="true"] {
   padding-inline-end: 0 !important;
 }
 #tabs-newtab-button {
@@ -176,12 +164,11 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
   display: none !important;
 }
 
-
 /**
 Esto es editado por mi para crear mi propia personalización...
 */
 
-#titlebar{
+#titlebar {
   background-color: #181825 !important;
   box-shadow: 0px !important;
 }
@@ -193,43 +180,42 @@ Esto es editado por mi para crear mi propia personalización...
   box-shadow: 0px !important;
 }
 
-
-.tabbrowser-tab[fadein]:not([pinned])  {
+.tabbrowser-tab[fadein]:not([pinned]) {
   max-width: 140px !important;
 }
 #tabbrowser-tabs:not([secondarytext-unsupported]) {
   height: fit-content; /* Anterior 2.25rem editado por mi */
 }
 
-.titlebar-buttonbox-container{
+.titlebar-buttonbox-container {
   margin-right: 7px !important;
 }
 
-
 /* Separadores */
-html#main-window body popupset#mainPopupSet menupopup#tabContextMenu menuseparator{
+html#main-window body popupset#mainPopupSet menupopup#tabContextMenu menuseparator {
   display: none !important;
 }
-html#main-window body popupset#mainPopupSet menupopup#contentAreaContextMenu menuseparator#context-sep-screenshots{
+html#main-window body popupset#mainPopupSet menupopup#contentAreaContextMenu menuseparator#context-sep-screenshots {
   display: none !important;
 }
-html#main-window body popupset#mainPopupSet menupopup#contentAreaContextMenu menuseparator#context-sep-selectall{
+html#main-window body popupset#mainPopupSet menupopup#contentAreaContextMenu menuseparator#context-sep-selectall {
   display: none !important;
 }
 
-menupopup, panel {
-	color-scheme: light dark;
-	min-width: 1px;
-	--panel-background: #181825 !important;
-	--panel-color: MenuText;
-	--panel-padding-block: 4px;
-	--panel-padding: var(--panel-padding-block) 0;
-	--panel-border-radius: 0px !important;
-	--panel-border-color: none !important;
-	--panel-width: initial;
-	--panel-shadow-margin: 0px;
-	--panel-shadow: 0 0 var(--panel-shadow-margin) hsla(0,0%,0%,.2);
-	-moz-window-input-region-margin: var(--panel-shadow-margin);
-	margin: calc(-1 * var(--panel-shadow-margin));
-	--color-canvas: var(--panel-background);
+menupopup,
+panel {
+  color-scheme: light dark;
+  min-width: 1px;
+  --panel-background: #181825 !important;
+  --panel-color: MenuText;
+  --panel-padding-block: 4px;
+  --panel-padding: var(--panel-padding-block) 0;
+  --panel-border-radius: 0px !important;
+  --panel-border-color: none !important;
+  --panel-width: initial;
+  --panel-shadow-margin: 0px;
+  --panel-shadow: 0 0 var(--panel-shadow-margin) hsla(0, 0%, 0%, 0.2);
+  -moz-window-input-region-margin: var(--panel-shadow-margin);
+  margin: calc(-1 * var(--panel-shadow-margin));
+  --color-canvas: var(--panel-background);
 }

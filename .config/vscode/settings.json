@@ -33,7 +33,7 @@
   "workbench.list.smoothScrolling": true,
   "workbench.iconTheme": "bearded-icons",
   "workbench.productIconTheme": "material-product-icons",
-  "workbench.colorTheme": "Bearded Theme Monokai Reversed",
+  "workbench.colorTheme": "Bearded Theme Stained Blue",
   // Explorer
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
@@ -101,15 +101,14 @@
   "scss.lint.unknownAtRules": "ignore",
   // CustomCSS and JS Loader
   "vscode_custom_css.imports": [
-    "file:///home/fedetomassini/.config/Code/User/custom-vscode.css"
+    "file:///home/fedetomassini/.config/Code/User/custom-vscode.css",
   ],
   // LiveShare
   "liveshare.accessibility.voiceEnabled": false,
-  // MongoDB
-  "mdb.connectionSaving.defaultConnectionSavingLocation": "Global",
-  "mdb.sendTelemetry": false,
-  "mdb.showMongoDBHelpExplorer": false,
-  "mdb.showMongoDBPlaygrounds": false,
+  "liveshare.accessibility.soundsEnabled": false,
+  "liveshare.diagnosticLogging": false,
+  "liveshare.diagnosticLoggingLevel": "Off",
+  "liveshare.diagnosticMode": false,
   // GitLens
   "gitlens.telemetry.enabled": false,
   "gitlens.plusFeatures.enabled": false,
@@ -118,7 +117,6 @@
     "suppressCreatePullRequestPrompt": true
   },
   "gitlens.launchpad.indicator.enabled": false,
-  "gitlens.ai.generateCommitMessage.enabled": false,
   "gitlens.liveshare.enabled": false,
   "gitlens.home.preview.enabled": true,
   "gitlens.showWhatsNewAfterUpgrades": false,
@@ -132,7 +130,7 @@
     "contributors": true,
     "repositories": false,
     "searchAndCompare": false,
-    "launchpad": true
+    "launchpad": false
   },
   // VSCord
   "vscord.app.name": "Visual Studio Code",
@@ -146,6 +144,9 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+  },
   // Snippets
   "jsJsxSnippets.settings.importReactOnTop": true,
   "jsJsxSnippets.settings.semicolon": true,
@@ -158,15 +159,21 @@
     "Commit": true
   },
   "git-graph.date.format": "Date & Time",
-  // Database & NoSQL
-  "database-client.autoSync": true,
-  "database-client.telemetry.usesOnlineServices": false,
   // Biome 
   "biome.enabled": true,
   // Agent (Test)
   "chat.agent.enabled": false,
-  //
-  "[php]": {
-    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
-  }
+  // DBCode
+  "dbcode.history.enabled":  false,
+  "dbcode.format.dateLocalTimezone": true,
+  // Five Server
+  "fiveServer.host": "127.0.0.1",
+  "fiveServer.port": 8080,
+  "fiveServer.ignore": [
+    ".excalidraw",
+    ".vscode"
+  ],
+  // 
+  "database-client.autoSync": true,
+  "database-client.telemetry.usesOnlineServices": false
 }
