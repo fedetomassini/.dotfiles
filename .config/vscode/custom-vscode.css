@@ -35,7 +35,7 @@
   top: -6px !important;
 }
 
-.monaco-scrollable-element>.shadow.top {
+.monaco-scrollable-element > .shadow.top {
   top: -3px !important;
 }
 
@@ -49,7 +49,7 @@
 /*───────────────────────────────────────────────
   🛠 TOOLBARS & ACTION ICONS
 ───────────────────────────────────────────────*/
-.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
+.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions {
   opacity: 0;
   transition: opacity 0.2s ease;
 }
@@ -63,7 +63,7 @@
   display: block !important;
 }
 
-.titlebar-right>* {
+.titlebar-right > * {
   display: none !important;
 }
 
@@ -121,7 +121,7 @@
 /*───────────────────────────────────────────────
   🪧 TITLEBAR & PROJECT NAME
 ───────────────────────────────────────────────*/
-.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
+.monaco-workbench .part.titlebar > .titlebar-container > .titlebar-center > .window-title > .command-center .action-item.command-center-center {
   border: none !important;
   background: transparent !important;
 }
@@ -151,7 +151,7 @@
   outline: none !important;
   padding: 8px !important;
   border: none !important;
-  background-color: var(--color-bg) !important;
+  /* background-color: var(--color-bg) !important; */
   font-size: 14px !important;
   margin-bottom: 16px !important;
 }
@@ -192,18 +192,19 @@
 }
 
 .part .activitybar .left .bordered {
-  background-color: rgb(30 32 44) !important;
-  border-color: rgb(30 32 44) !important;
+  /* background-color: rgb(30 32 44) !important;
+  border-color: rgb(30 32 44) !important; */
 }
 
 .monaco-editor .sticky-widget {
   box-shadow: none !important;
 }
 
-.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab {
-  background-color: var(--color-bg) !important;
+.monaco-workbench .part.editor > .content .editor-group-container.active > .title .tabs-container > .tab {
+  /* background-color: var(--color-bg) !important; */
 }
 
 .letterpress {
   display: none !important;
 }
+

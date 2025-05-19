@@ -33,7 +33,7 @@
   "workbench.list.smoothScrolling": true,
   "workbench.iconTheme": "bearded-icons",
   "workbench.productIconTheme": "material-product-icons",
-  "workbench.colorTheme": "Bearded Theme Stained Blue",
+  "workbench.colorTheme": "Ayu Mirage",
   // Explorer
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
@@ -175,5 +175,5 @@
   ],
   // 
   "database-client.autoSync": true,
-  "database-client.telemetry.usesOnlineServices": false
+  "database-client.telemetry.usesOnlineServices": false,
 }
