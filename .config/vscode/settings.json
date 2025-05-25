@@ -6,7 +6,7 @@
   "editor.tabSize": 2,
   "editor.indentSize": "tabSize",
   "editor.linkedEditing": true,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "editor.smoothScrolling": true,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -33,7 +33,7 @@
   "workbench.list.smoothScrolling": true,
   "workbench.iconTheme": "bearded-icons",
   "workbench.productIconTheme": "material-product-icons",
-  "workbench.colorTheme": "Ayu Mirage",
+  "workbench.colorTheme": "Kanagawa Vague Dark",
   // Explorer
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
@@ -167,7 +167,7 @@
   "dbcode.history.enabled":  false,
   "dbcode.format.dateLocalTimezone": true,
   // Five Server
-  "fiveServer.host": "127.0.0.1",
+  "fiveServer.host": "localhost",
   "fiveServer.port": 8080,
   "fiveServer.ignore": [
     ".excalidraw",
