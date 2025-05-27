@@ -164,7 +164,7 @@
   // Agent (Test)
   "chat.agent.enabled": false,
   // DBCode
-  "dbcode.history.enabled":  false,
+  "dbcode.history.enabled": false,
   "dbcode.format.dateLocalTimezone": true,
   // Five Server
   "fiveServer.host": "localhost",
@@ -176,4 +176,35 @@
   // 
   "database-client.autoSync": true,
   "database-client.telemetry.usesOnlineServices": false,
+  // Temp
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "cweijan.vscode-database-client2"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
 }
