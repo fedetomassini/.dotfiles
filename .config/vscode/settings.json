@@ -6,7 +6,7 @@
   "editor.tabSize": 2,
   "editor.indentSize": "tabSize",
   "editor.linkedEditing": true,
-  "editor.minimap.enabled": true,
+  "editor.minimap.enabled": false,
   "editor.smoothScrolling": true,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
@@ -206,5 +206,5 @@
   },
   "[handlebars]": {
     "editor.defaultFormatter": "vscode.html-language-features"
-  },
+  }
 }
