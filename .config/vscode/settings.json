@@ -33,7 +33,36 @@
   "workbench.list.smoothScrolling": true,
   "workbench.iconTheme": "bearded-icons",
   "workbench.productIconTheme": "material-product-icons",
-  "workbench.colorTheme": "Kanagawa Vague Dark",
+  "workbench.colorTheme": "Shimmer Theme Dark Neutral",
+  "workbench.colorCustomizations": {
+    "[Shimmer Theme Dark Neutral]": {
+      "button.background": "#222831",
+      "button.foreground": "#cdcdcd",
+      "button.hoverBackground": "#222831",
+      "inputOption.activeBackground": "#222831",
+      "inputOption.activeForeground": "#cdcdcd",
+      "badge.foreground": "#cdcdcd",
+      "badge.background": "#222831",
+      "progressBar.background": "#222831",
+      "activityBar.foreground": "#cdcdcd",
+      "activityBarBadge.background": "#222831",
+      "activityBarBadge.foreground": "#cdcdcd",
+      "activityBarTop.foreground": "#cdcdcd",
+      "activityBarTop.activeBorder": "#222831",
+      "tab.activeBorderTop": "#222831",
+      "editorSuggestWidget.focusHighlightForeground": "#cdcdcd",
+      "editorSuggestWidget.highlightForeground": "#cdcdcd",
+      "peekViewTitleLabel.foreground": "#cdcdcd",
+      "panel.background": "#171717",
+      "panel.dropBorder": "#222831",
+      "panelTitle.activeBorder": "#222831",
+      "panelTitle.activeForeground": "#cdcdcd",
+      "statusBarItem.remoteHoverForeground": "#cdcdcd",
+      "breadcrumb.focusForeground": "#222831",
+      "terminal.background": "#171717",
+      "terminal.foreground": "#cdcdcd",
+    }
+  },
   // Explorer
   "explorer.compactFolders": false,
   "explorer.fileNesting.enabled": true,
@@ -147,6 +176,33 @@
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
   },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
   // Snippets
   "jsJsxSnippets.settings.importReactOnTop": true,
   "jsJsxSnippets.settings.semicolon": true,
@@ -173,38 +229,4 @@
     ".excalidraw",
     ".vscode"
   ],
-  // 
-  "database-client.autoSync": true,
-  "database-client.telemetry.usesOnlineServices": false,
-  // Temp
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[sql]": {
-    "editor.defaultFormatter": "cweijan.vscode-database-client2"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[less]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[handlebars]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  }
 }
