@@ -5,6 +5,7 @@
 	"editor.fontWeight": "normal",
 	"editor.fontLigatures": true,
 	"editor.fontVariations": true,
+	"editor.minimap.enabled": false,
 	"editor.minimap.renderCharacters": false,
 	"editor.accessibilitySupport": "off",
 	"editor.aiStats.enabled": false,
@@ -13,7 +14,7 @@
 	"editor.smoothScrolling": true,
 	"editor.cursorSmoothCaretAnimation": "on",
 	"editor.formatOnSave": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.defaultFormatter": "biomejs.biome",
 	"editor.autoClosingBrackets": "always",
 	"editor.autoClosingComments": "always",
 	"editor.autoClosingQuotes": "always",
@@ -39,7 +40,7 @@
 	"telemetry.feedback.enabled": false,
 	"editor.experimental.treeSitterTelemetry": false,
 	//
-	"workbench.colorTheme": "Min Dark",
+	"workbench.colorTheme": "cursor midnight theme",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.iconTheme": "symbols",
 	"workbench.layoutControl.enabled": false,
@@ -51,6 +52,7 @@
 	"workbench.reduceMotion": "on",
 	"workbench.tips.enabled": false,
 	"workbench.welcomePage.walkthroughs.openOnInstall": false,
+	"workbench.sideBar.location": "left",
 	//
 	"window.commandCenter": false,
 	"window.zoomLevel": -1,
@@ -74,7 +76,7 @@
 	"extensions.autoCheckUpdates": true,
 	"extensions.autoUpdate": "onlyEnabledExtensions",
 	"extensions.ignoreRecommendations": true,
-	"extensions.verifySignature": true,
+	"extensions.verifySignature": false,
 	//
 	"security.workspace.trust.enabled": false,
 	"security.workspace.trust.banner": "never",
@@ -108,41 +110,46 @@
 	"errorLens.enableOnDiffView": true,
 	"errorLens.onSave": true,
 	//
-	"html.autoClosingTags": true,
-	"html.autoCreateQuotes": true,
-	"html.format.enable": true,
-	"html.suggest.html5": true,
-	"html.completion.attributeDefaultValue": "doublequotes",
-	//
-	"css.autoValidation": "Always",
-	"css.format.enable": true,
-	"css.validate": true,
-	"[tailwindcss]": {
-		"editor.defaultFormatter": "bradlc.vscode-tailwindcss",
-		"tailwindCSS.codeLens": true,
-		"tailwindCSS.validate": true,
-		"tailwindCSS.suggestions": true
-	},
-	"[php]": {
-		"editor.defaultFormatter": "DEVSENSE.intelli-php-vscode"
-	},
-	"php.suggest.basic": false,
-	"php.validate.enable": true,
-	"php.validate.run": "onSave",
-	//
-	"prettier.enable": true,
-	"prettier.enableDebugLogs": false,
-	"prettier.jsxSingleQuote": false,
-	"prettier.semi": true,
-	"prettier.singleQuote": false,
-	"prettier.useTabs": true,
-	"prettier.tabWidth": 2,
-	"prettier.endOfLine": "lf",
-	"prettier.bracketSpacing": true,
-	"prettier.bracketSameLine": true,
-	"prettier.arrowParens": "always",
-	"prettier.withNodeModules": false,
+	"biome.enabled": true,
 	//
 	"excalidraw.theme": "dark",
-	"excalidraw.language": "en"
+	"excalidraw.language": "en",
+	//
+	"custom-ui-style.stylesheet": {
+		".notification-toast": "box-shadow: none !important",
+		".quick-input-widget.show-file-icons": "box-shadow: none !important",
+		".quick-input-widget": "top: 25vh !important;",
+		".quick-input-list .scrollbar": "display: none",
+		".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+		".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+		".quick-input-titlebar": "background: #100B15 !important"
+	},
+	//
+	"thunder-client.restoreTabs": false,
+	"thunder-client.responseLimit": 1,
+	"thunder-client.jsonFileIndentSize": 2,
+	"thunder-client.indentSize": 2,
+	"thunder-client.sidebar.layout": "compact",
+	"thunder-client.sidebar.defaultTab": "Collections",
+	"thunder-client.autoRunCurl": false,
+	"thunder-client.httpLibrary": "axios",
+	"thunder-client.requestTimeout": 15000,
+	//
+	"json.format.enable": true,
+	"json.validate.enable": true,
+	"json.schemaDownload.enable": true,
+	//
+	"vsintellicode.java.completionsEnabled": true,
+	"vsintellicode.python.completionsEnabled": true,
+	"vsintellicode.typescript.completionsEnabled": true,
+	"vsintellicode.sql.completionsEnabled": true,
+	//
+	"l13Projects.showTagsInWorkspaces": false,
+	"l13Projects.autoRemoveDeletedProjects": true,
+	"l13Projects.sortWorkspacesBy": "name",
+	"l13Projects.confirmDeleteFavorite": true,
+	"l13Projects.confirmDeleteProject": true,
+	"l13Projects.confirmDeleteTag": true,
+	"l13Projects.confirmOpenMultipleWindows": true,
+	//
 }
