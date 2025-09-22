@@ -5,7 +5,7 @@
 	"editor.fontWeight": "normal",
 	"editor.fontLigatures": true,
 	"editor.fontVariations": true,
-	"editor.minimap.enabled": false,
+	"editor.minimap.enabled": true,
 	"editor.minimap.renderCharacters": false,
 	"editor.accessibilitySupport": "off",
 	"editor.aiStats.enabled": false,
@@ -55,7 +55,7 @@
 	"workbench.sideBar.location": "left",
 	//
 	"window.commandCenter": false,
-	"window.zoomLevel": -1,
+	"window.zoomLevel": 0,
 	"window.newWindowProfile": "Default",
 	"window.menuBarVisibility": "compact",
 	"window.border": "off",
@@ -151,5 +151,26 @@
 	"l13Projects.confirmDeleteProject": true,
 	"l13Projects.confirmDeleteTag": true,
 	"l13Projects.confirmOpenMultipleWindows": true,
-	// 
+	"biome.suggestInstallingGlobally": false,
+	//
+	"vscord.app.name": "Visual Studio Code",
+	"vscord.app.id": "782685898163617802",
+	"vscord.status.state.text.editing": "Editing {file_name}{file_extension} - {current_line}/{current_column} ☕",
+	"vscord.status.details.text.notInFile": "Idle 💤",
+	"vscord.status.state.text.idle": "Idle 💤",
+	"vscord.status.problems.text": "",
+	"vscord.status.details.text.editing": "",
+	//
+	"glassit.alpha": 240,
+	//
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"*.ts": "${capture}.js",
+		"*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+		"*.jsx": "${capture}.js",
+		"*.tsx": "${capture}.ts",
+		"*.env": "${capture}.env",
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock"
+	}
 }
