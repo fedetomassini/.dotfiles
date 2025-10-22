@@ -53,6 +53,7 @@
 	"workbench.tips.enabled": false,
 	"workbench.welcomePage.walkthroughs.openOnInstall": false,
 	"workbench.sideBar.location": "left",
+	"workbench.secondarySideBar.defaultVisibility": "hidden",
 	//
 	"window.commandCenter": false,
 	"window.zoomLevel": 0,
@@ -139,6 +140,8 @@
 	"json.validate.enable": true,
 	"json.schemaDownload.enable": true,
 	//
+	"scss.lint.unknownAtRules": "ignore",
+	//
 	"vsintellicode.java.completionsEnabled": true,
 	"vsintellicode.python.completionsEnabled": true,
 	"vsintellicode.typescript.completionsEnabled": true,
@@ -161,7 +164,7 @@
 	"vscord.status.problems.text": "",
 	"vscord.status.details.text.editing": "",
 	//
-	"glassit.alpha": 240,
+	"glassit.alpha": 245,
 	//
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
@@ -172,5 +175,24 @@
 		"*.env": "${capture}.env",
 		"tsconfig.json": "tsconfig.*.json",
 		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock"
-	}
+	},
+	//
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	//
+	"Laravel.appBinding.completion": true,
+	"Laravel.asset.completion": true,
+	"Laravel.auth.completion": true,
+	"Laravel.config.completion": true,
+	"Laravel.env.completion": true,
+	"Laravel.controllerAction.completion": true,
+	"Laravel.inertia.completion": true,
+	"Laravel.livewireComponent.completion": true,
+	"Laravel.bladeComponent.completion": true,
+	"Laravel.middleware.completion": true,
+	"Laravel.route.completion": true,
+	"Laravel.mix.completion": true,
+	"Laravel.translation.completion": true
+	//
 }
