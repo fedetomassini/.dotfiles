@@ -179,20 +179,5 @@
 	//
 	"[php]": {
 		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-	},
-	//
-	"Laravel.appBinding.completion": true,
-	"Laravel.asset.completion": true,
-	"Laravel.auth.completion": true,
-	"Laravel.config.completion": true,
-	"Laravel.env.completion": true,
-	"Laravel.controllerAction.completion": true,
-	"Laravel.inertia.completion": true,
-	"Laravel.livewireComponent.completion": true,
-	"Laravel.bladeComponent.completion": true,
-	"Laravel.middleware.completion": true,
-	"Laravel.route.completion": true,
-	"Laravel.mix.completion": true,
-	"Laravel.translation.completion": true
-	//
+	}
 }
