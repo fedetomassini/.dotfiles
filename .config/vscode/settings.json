@@ -1,232 +1,183 @@
 {
-  // Editor
-  "editor.fontSize": 15,
-  "editor.fontWeight": "normal",
-  "editor.fontFamily": "'iMWritingMono Nerd Font'",
-  "editor.tabSize": 2,
-  "editor.indentSize": "tabSize",
-  "editor.linkedEditing": true,
-  "editor.minimap.enabled": false,
-  "editor.smoothScrolling": true,
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "biomejs.biome",
-  "editor.quickSuggestions": {
-    "strings": "on",
-    "comments": "on",
-    "other": "on"
-  },
-  "editor.experimental.treeSitterTelemetry": false,
-  "diffEditor.hideUnchangedRegions.enabled": true,
-  "window.menuBarVisibility": "hidden",
-  "window.titleBarStyle": "native",
-  "window.zoomLevel": -1,
-  "window.commandCenter": false,
-  "window.newWindowProfile": "Default",
-  "window.customTitleBarVisibility": "auto",
-  "workbench.startupEditor": "none",
-  "workbench.tree.indent": 20,
-  "workbench.tree.renderIndentGuides": "onHover",
-  "workbench.statusBar.visible": false,
-  "workbench.layoutControl.enabled": false,
-  "workbench.list.smoothScrolling": true,
-  "workbench.iconTheme": "bearded-icons",
-  "workbench.productIconTheme": "material-product-icons",
-  "workbench.colorTheme": "Shimmer Theme Dark Neutral",
-  "workbench.colorCustomizations": {
-    "[Shimmer Theme Dark Neutral]": {
-      "button.background": "#222831",
-      "button.foreground": "#cdcdcd",
-      "button.hoverBackground": "#222831",
-      "inputOption.activeBackground": "#222831",
-      "inputOption.activeForeground": "#cdcdcd",
-      "badge.foreground": "#cdcdcd",
-      "badge.background": "#222831",
-      "progressBar.background": "#222831",
-      "activityBar.foreground": "#cdcdcd",
-      "activityBarBadge.background": "#222831",
-      "activityBarBadge.foreground": "#cdcdcd",
-      "activityBarTop.foreground": "#cdcdcd",
-      "activityBarTop.activeBorder": "#222831",
-      "tab.activeBorderTop": "#222831",
-      "editorSuggestWidget.focusHighlightForeground": "#cdcdcd",
-      "editorSuggestWidget.highlightForeground": "#cdcdcd",
-      "peekViewTitleLabel.foreground": "#cdcdcd",
-      "panel.background": "#171717",
-      "panel.dropBorder": "#222831",
-      "panelTitle.activeBorder": "#222831",
-      "panelTitle.activeForeground": "#cdcdcd",
-      "statusBarItem.remoteHoverForeground": "#cdcdcd",
-      "breadcrumb.focusForeground": "#222831",
-      "terminal.background": "#171717",
-      "terminal.foreground": "#cdcdcd",
-    }
-  },
-  // Explorer
-  "explorer.compactFolders": false,
-  "explorer.fileNesting.enabled": true,
-  "explorer.fileNesting.patterns": {
-    "*.ts": "${capture}.js",
-    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-    "*.jsx": "${capture}.js",
-    "*.tsx": "${capture}.ts",
-    "tsconfig.json": "tsconfig.*.json",
-    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lock, .gitignore",
-    "biome.json": ".eslintrc.*",
-    "tailwind.config.ts": "tailwind.config*, postcss.config*",
-    ".env.local": ".env*",
-    ".env": ".env*",
-    "*.sqlite": "${capture}.${extname}-*",
-    "*.db": "${capture}.${extname}-*",
-    "*.sqlite3": "${capture}.${extname}-*",
-    "*.db3": "${capture}.${extname}-*",
-    "*.sdb": "${capture}.${extname}-*",
-    "*.s3db": "${capture}.${extname}-*"
-  },
-  // Terminal
-  "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.defaultProfile.windows": null,
-  "terminal.integrated.tabs.defaultColor": "terminal.ansiBlue",
-  "terminal.integrated.env.windows": {},
-  "terminal.integrated.shellIntegration.history": 5,
-  "terminal.integrated.suggest.enabled": true,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.persistentSessionScrollback": 0,
-  "terminal.external.linuxExec": "kitty",
-  "terminal.integrated.fontFamily": "'iMWritingMono Nerd Font'",
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.fontWeight": "normal",
-  "terminal.integrated.env.linux": {},
-  // Extensions
-  "extensions.ignoreRecommendations": true,
-  "extensions.autoCheckUpdates": true,
-  "extensions.autoUpdate": true,
-  // Updates
-  "update.mode": "manual",
-  // Telemetry
-  "telemetry.telemetryLevel": "off",
-  "telemetry.feedback.enabled": false,
-  // Excalidraw
-  "excalidraw.theme": "dark",
-  "excalidraw.language": "en",
-  // ErrorLens
-  "errorLens.fontStyleItalic": true,
-  "errorLens.fontWeight": "700",
-  "errorLens.fontFamily": "'iMWritingMono Nerd Font'",
-  //"errorLens.delay": 3500,
-  //"errorLens.onSaveTimeout": 3500,
-  // NPM
-  "npm.packageManager": "bun",
-  // Projects Manager 
-  "l13Projects.confirmDeleteFavorite": true,
-  "l13Projects.confirmDeleteProject": true,
-  "l13Projects.confirmDeleteTag": true,
-  "l13Projects.confirmOpenMultipleWindows": true,
-  // CSS/SCSS
-  "css.lint.unknownAtRules": "ignore",
-  "scss.lint.unknownAtRules": "ignore",
-  // CustomCSS and JS Loader
-  "vscode_custom_css.imports": [
-    "file:///home/fedetomassini/.config/Code/User/custom-vscode.css",
-  ],
-  // LiveShare
-  "liveshare.accessibility.voiceEnabled": false,
-  "liveshare.accessibility.soundsEnabled": false,
-  "liveshare.diagnosticLogging": false,
-  "liveshare.diagnosticLoggingLevel": "Off",
-  "liveshare.diagnosticMode": false,
-  // GitLens
-  "gitlens.telemetry.enabled": false,
-  "gitlens.plusFeatures.enabled": false,
-  "gitlens.views.repositories.files.layout": "tree",
-  "gitlens.advanced.messages": {
-    "suppressCreatePullRequestPrompt": true
-  },
-  "gitlens.launchpad.indicator.enabled": false,
-  "gitlens.liveshare.enabled": false,
-  "gitlens.home.preview.enabled": true,
-  "gitlens.showWhatsNewAfterUpgrades": false,
-  "gitlens.views.scm.grouped.views": {
-    "commits": true,
-    "branches": true,
-    "remotes": true,
-    "stashes": true,
-    "tags": true,
-    "worktrees": false,
-    "contributors": true,
-    "repositories": false,
-    "searchAndCompare": false,
-    "launchpad": false
-  },
-  // VSCord
-  "vscord.app.name": "Visual Studio Code",
-  "vscord.app.id": "782685898163617802",
-  "vscord.status.state.text.editing": "Editing {file_name}{file_extension} - {current_line}/{current_column} ☕",
-  "vscord.status.details.text.notInFile": "Idle 💤",
-  "vscord.status.state.text.idle": "Idle 💤",
-  "vscord.status.problems.text": "",
-  "vscord.status.details.text.editing": "",
-  // Language-specific settings
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
-  },
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[less]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[handlebars]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  // Snippets
-  "jsJsxSnippets.settings.importReactOnTop": true,
-  "jsJsxSnippets.settings.semicolon": true,
-  "jsJsxSnippets.settings.typing": true,
-  // Git Graph
-  "git-graph.commitDetailsView.autoCenter": true,
-  "git-graph.defaultColumnVisibility": {
-    "Date": true,
-    "Author": true,
-    "Commit": true
-  },
-  "git-graph.date.format": "Date & Time",
-  // Biome 
-  "biome.enabled": true,
-  // Agent (Test)
-  "chat.agent.enabled": false,
-  // DBCode
-  "dbcode.history.enabled": false,
-  "dbcode.format.dateLocalTimezone": true,
-  // Five Server
-  "fiveServer.host": "localhost",
-  "fiveServer.port": 8080,
-  "fiveServer.ignore": [
-    ".excalidraw",
-    ".vscode"
-  ],
+	"editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+	"editor.fontSize": 14,
+	"editor.lineHeight": 1.5,
+	"editor.fontWeight": "normal",
+	"editor.fontLigatures": true,
+	"editor.fontVariations": true,
+	"editor.minimap.enabled": true,
+	"editor.minimap.renderCharacters": false,
+	"editor.accessibilitySupport": "off",
+	"editor.aiStats.enabled": false,
+	"editor.codeLens": true,
+	"editor.codeLensFontFamily": "JetBrainsMono Nerd Font Mono",
+	"editor.smoothScrolling": true,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "biomejs.biome",
+	"editor.autoClosingBrackets": "always",
+	"editor.autoClosingComments": "always",
+	"editor.autoClosingQuotes": "always",
+	"editor.autoClosingDelete": "always",
+	"editor.autoClosingOvertype": "always",
+	"editor.autoIndent": "full",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.colorDecorators": false,
+	"editor.tabSize": 2,
+	"editor.tabCompletion": "on",
+	"editor.cursorBlinking": "expand",
+	//
+	"explorer.compactFolders": false,
+	"explorer.decorations.badges": true,
+	"explorer.decorations.colors": true,
+	//
+	"telemetry.telemetryLevel": "off",
+	"telemetry.editStats.details.enabled": false,
+	"telemetry.editStats.enabled": false,
+	"telemetry.editStats.showDecorations": false,
+	"telemetry.editStats.showStatusBar": false,
+	"telemetry.feedback.enabled": false,
+	"editor.experimental.treeSitterTelemetry": false,
+	//
+	"workbench.colorTheme": "cursor midnight theme",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.iconTheme": "symbols",
+	"workbench.layoutControl.enabled": false,
+	"workbench.statusBar.visible": false,
+	"workbench.startupEditor": "none",
+	"workbench.activityBar.location": "top",
+	"workbench.activityBar.iconClickBehavior": "focus",
+	"workbench.commandPalette.history": 0,
+	"workbench.reduceMotion": "on",
+	"workbench.tips.enabled": false,
+	"workbench.welcomePage.walkthroughs.openOnInstall": false,
+	"workbench.sideBar.location": "left",
+	"workbench.secondarySideBar.defaultVisibility": "hidden",
+	//
+	"window.commandCenter": false,
+	"window.zoomLevel": 0,
+	"window.newWindowProfile": "Default",
+	"window.menuBarVisibility": "compact",
+	"window.border": "off",
+	"window.title": "${appName}",
+	"window.restoreWindows": "none",
+	//
+	"update.showReleaseNotes": false,
+	"update.mode": "manual",
+	"update.enableWindowsBackgroundUpdates": false,
+	//
+	"chat.agent.enabled": false,
+	"chat.commandCenter.enabled": false,
+	"chat.extensionTools.enabled": false,
+	//
+	"extensions.allowed": {
+		"*": true
+	},
+	"extensions.autoCheckUpdates": true,
+	"extensions.autoUpdate": "onlyEnabledExtensions",
+	"extensions.ignoreRecommendations": true,
+	"extensions.verifySignature": false,
+	//
+	"security.workspace.trust.enabled": false,
+	"security.workspace.trust.banner": "never",
+	"security.workspace.trust.startupPrompt": "never",
+	//
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.defaultProfile.linux": "kitty",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.confirmOnKill": "never",
+	"terminal.integrated.smoothScrolling": true,
+	"terminal.integrated.shellIntegration.decorationsEnabled": "both",
+	"terminal.integrated.profiles.windows": {
+		"Git Bash": {
+			"source": "Git Bash",
+			"color": "terminal.ansiWhite",
+			"icon": "terminal-bash",
+			"overrideName": true
+		}
+	},
+	"terminal.integrated.confirmOnExit": "never",
+	"terminal.integrated.suggest.enabled": false,
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+	"terminal.integrated.fontSize": 14,
+	//
+	"errorLens.enabled": true,
+	"errorLens.codeLensEnabled": false,
+	"errorLens.fontFamily": "JetBrainsMono Nerd Font Mono",
+	"errorLens.fontSize": "14",
+	"errorLens.fontWeight": "500",
+	"errorLens.enableOnDiffView": true,
+	"errorLens.onSave": true,
+	//
+	"biome.enabled": true,
+	//
+	"excalidraw.theme": "dark",
+	"excalidraw.language": "en",
+	//
+	"custom-ui-style.stylesheet": {
+		".notification-toast": "box-shadow: none !important",
+		".quick-input-widget.show-file-icons": "box-shadow: none !important",
+		".quick-input-widget": "top: 25vh !important;",
+		".quick-input-list .scrollbar": "display: none",
+		".monaco-action-bar.quick-input-inline-action-bar": "display: none",
+		".editor-widget.find-widget": "box-shadow: none; border-radius: 4px",
+		".quick-input-titlebar": "background: #100B15 !important"
+	},
+	//
+	"thunder-client.restoreTabs": false,
+	"thunder-client.responseLimit": 1,
+	"thunder-client.jsonFileIndentSize": 2,
+	"thunder-client.indentSize": 2,
+	"thunder-client.sidebar.layout": "compact",
+	"thunder-client.sidebar.defaultTab": "Collections",
+	"thunder-client.autoRunCurl": false,
+	"thunder-client.httpLibrary": "axios",
+	"thunder-client.requestTimeout": 15000,
+	//
+	"json.format.enable": true,
+	"json.validate.enable": true,
+	"json.schemaDownload.enable": true,
+	//
+	"scss.lint.unknownAtRules": "ignore",
+	//
+	"vsintellicode.java.completionsEnabled": true,
+	"vsintellicode.python.completionsEnabled": true,
+	"vsintellicode.typescript.completionsEnabled": true,
+	"vsintellicode.sql.completionsEnabled": true,
+	//
+	"l13Projects.showTagsInWorkspaces": false,
+	"l13Projects.autoRemoveDeletedProjects": true,
+	"l13Projects.sortWorkspacesBy": "name",
+	"l13Projects.confirmDeleteFavorite": true,
+	"l13Projects.confirmDeleteProject": true,
+	"l13Projects.confirmDeleteTag": true,
+	"l13Projects.confirmOpenMultipleWindows": true,
+	"biome.suggestInstallingGlobally": false,
+	//
+	"vscord.app.name": "Visual Studio Code",
+	"vscord.app.id": "782685898163617802",
+	"vscord.status.state.text.editing": "Editing {file_name}{file_extension} - {current_line}/{current_column} ☕",
+	"vscord.status.details.text.notInFile": "Idle 💤",
+	"vscord.status.state.text.idle": "Idle 💤",
+	"vscord.status.problems.text": "",
+	"vscord.status.details.text.editing": "",
+	//
+	"glassit.alpha": 245,
+	//
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"*.ts": "${capture}.js",
+		"*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+		"*.jsx": "${capture}.js",
+		"*.tsx": "${capture}.ts",
+		"*.env": "${capture}.env",
+		"tsconfig.json": "tsconfig.*.json",
+		"package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock"
+	},
+	//
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	}
 }
