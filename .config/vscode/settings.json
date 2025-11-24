@@ -40,7 +40,7 @@
 	"telemetry.feedback.enabled": false,
 	"editor.experimental.treeSitterTelemetry": false,
 	//
-	"workbench.colorTheme": "cursor midnight theme",
+	"workbench.colorTheme": "cursor anysphere theme",
 	"workbench.productIconTheme": "fluent-icons",
 	"workbench.iconTheme": "symbols",
 	"workbench.layoutControl.enabled": false,
@@ -126,26 +126,11 @@
 		".quick-input-titlebar": "background: #100B15 !important"
 	},
 	//
-	"thunder-client.restoreTabs": false,
-	"thunder-client.responseLimit": 1,
-	"thunder-client.jsonFileIndentSize": 2,
-	"thunder-client.indentSize": 2,
-	"thunder-client.sidebar.layout": "compact",
-	"thunder-client.sidebar.defaultTab": "Collections",
-	"thunder-client.autoRunCurl": false,
-	"thunder-client.httpLibrary": "axios",
-	"thunder-client.requestTimeout": 15000,
-	//
 	"json.format.enable": true,
 	"json.validate.enable": true,
 	"json.schemaDownload.enable": true,
 	//
 	"scss.lint.unknownAtRules": "ignore",
-	//
-	"vsintellicode.java.completionsEnabled": true,
-	"vsintellicode.python.completionsEnabled": true,
-	"vsintellicode.typescript.completionsEnabled": true,
-	"vsintellicode.sql.completionsEnabled": true,
 	//
 	"l13Projects.showTagsInWorkspaces": false,
 	"l13Projects.autoRemoveDeletedProjects": true,
@@ -164,7 +149,7 @@
 	"vscord.status.problems.text": "",
 	"vscord.status.details.text.editing": "",
 	//
-	"glassit.alpha": 245,
+	"glassit.alpha": 240,
 	//
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
