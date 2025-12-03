@@ -25,12 +25,6 @@ Minimalist, aesthetic, and tailored for productivity.
 > ⚠️ Use at your own risk!  
 > These dotfiles are highly personal and may override existing configs.
 
-```bash
-git clone https://github.com/fedetomassini/.dotfiles.git ~/.dotfiles
-cd ~/.dotfiles
-./install.sh (soon)
-```
-
 ---
 
 Made with :coffee: and a bit of `~/.config` magic ✨
