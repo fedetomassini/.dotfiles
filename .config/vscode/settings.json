@@ -39,8 +39,9 @@
 	"telemetry.editStats.showStatusBar": false,
 	"telemetry.feedback.enabled": false,
 	"editor.experimental.treeSitterTelemetry": false,
-	"workbench.productIconTheme": "fluent-icons",
-	"workbench.iconTheme": "symbols",
+	"workbench.productIconTheme": "material-product-icons",
+	"workbench.colorTheme": "Vesper",
+	"workbench.iconTheme": "gruvbox-material-icon-theme",
 	"workbench.layoutControl.enabled": false,
 	"workbench.statusBar.visible": false,
 	"workbench.startupEditor": "none",
@@ -161,7 +162,15 @@
 	},
 	//
 	"[php]": {
-		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+		"editor.defaultFormatter": "biomejs.biome"
 	},
-	"workbench.colorTheme": "Vesper"
+	"[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	}
 }
