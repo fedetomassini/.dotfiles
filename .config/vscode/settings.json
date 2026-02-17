@@ -40,8 +40,8 @@
 	"telemetry.feedback.enabled": false,
 	"editor.experimental.treeSitterTelemetry": false,
 	"workbench.productIconTheme": "material-product-icons",
-	"workbench.colorTheme": "Vesper",
 	"workbench.iconTheme": "gruvbox-material-icon-theme",
+	"workbench.colorTheme": "Ayu Dark",
 	"workbench.layoutControl.enabled": false,
 	"workbench.statusBar.visible": false,
 	"workbench.startupEditor": "none",
@@ -176,5 +176,6 @@
 	},
 	"[json]": {
 		"editor.defaultFormatter": "biomejs.biome"
-	}
+	},
+	"claudeCode.preferredLocation": "panel"
 }
