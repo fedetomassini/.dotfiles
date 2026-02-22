@@ -41,7 +41,7 @@
 	"editor.experimental.treeSitterTelemetry": false,
 	"workbench.productIconTheme": "material-product-icons",
 	"workbench.iconTheme": "gruvbox-material-icon-theme",
-	"workbench.colorTheme": "Ayu Dark",
+	"workbench.colorTheme": "Tokyo Night",
 	"workbench.layoutControl.enabled": false,
 	"workbench.statusBar.visible": false,
 	"workbench.startupEditor": "none",
@@ -106,6 +106,20 @@
 	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
 	"terminal.integrated.fontSize": 12,
 	//
+	"claudeCode.preferredLocation": "sidebar",
+	"claudeCode.selectedModel": "default",
+	"claudeCode.useTerminal": false,
+	"claudeCode.respectGitIgnore": true,
+	"claudeCode.initialPermissionMode": "acceptEdits",
+	//
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"github.copilot.chat.askQuestions.enabled": true,
+	//
 	"errorLens.enabled": true,
 	"errorLens.codeLensEnabled": false,
 	"errorLens.fontFamily": "JetBrainsMono Nerd Font Mono",
@@ -115,6 +129,7 @@
 	"errorLens.onSave": true,
 	//
 	"biome.enabled": true,
+	"biome.suggestInstallingGlobally": false,
 	//
 	"excalidraw.theme": "dark",
 	"excalidraw.language": "en",
@@ -142,7 +157,6 @@
 	"l13Projects.confirmDeleteProject": true,
 	"l13Projects.confirmDeleteTag": true,
 	"l13Projects.confirmOpenMultipleWindows": true,
-	"biome.suggestInstallingGlobally": false,
 	//
 	"vscord.app.name": "Visual Studio Code",
 	"vscord.app.id": "782685898163617802",
@@ -152,7 +166,7 @@
 	"vscord.status.problems.text": "",
 	"vscord.status.details.text.editing": "",
 	//
-	"glassit.alpha": 240,
+	"glassit.alpha": 245,
 	//
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
@@ -176,6 +190,5 @@
 	},
 	"[json]": {
 		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"claudeCode.preferredLocation": "panel"
+	}
 }
