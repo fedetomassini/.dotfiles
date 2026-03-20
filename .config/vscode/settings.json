@@ -106,19 +106,12 @@
 	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
 	"terminal.integrated.fontSize": 12,
 	//
-	"claudeCode.preferredLocation": "sidebar",
-	"claudeCode.selectedModel": "default",
-	"claudeCode.useTerminal": false,
-	"claudeCode.respectGitIgnore": true,
-	"claudeCode.initialPermissionMode": "acceptEdits",
-	//
 	"github.copilot.enable": {
 		"*": true,
 		"plaintext": false,
 		"markdown": false,
 		"scminput": false
 	},
-	"github.copilot.chat.askQuestions.enabled": true,
 	//
 	"errorLens.enabled": true,
 	"errorLens.codeLensEnabled": false,
@@ -189,6 +182,6 @@
 		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"[json]": {
-		"editor.defaultFormatter": "biomejs.biome"
+		"editor.defaultFormatter": "vscode.json-language-features"
 	}
 }
