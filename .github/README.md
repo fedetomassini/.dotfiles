@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fedetomassini/.dotfiles/main/.github/assets/image.jpeg" alt="dotfiles aesthetic"/>
+  <img src="https://raw.githubusercontent.com/fedetomassini/.dotfiles/main/assets/image.jpeg" alt="dotfiles aesthetic"/>
 </p>
 
 <div align="center">
