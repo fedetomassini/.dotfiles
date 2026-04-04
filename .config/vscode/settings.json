@@ -147,7 +147,7 @@
 	"l13Projects.autoRemoveDeletedProjects": true,
 	"l13Projects.sortWorkspacesBy": "name",
 	"l13Projects.confirmDeleteFavorite": true,
-	"l13Projects.confirmDeleteProject": true,
+	"l13Projects.confirmDeleteProject": false,
 	"l13Projects.confirmDeleteTag": true,
 	"l13Projects.confirmOpenMultipleWindows": true,
 	//
@@ -175,13 +175,6 @@
 	"[php]": {
 		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
 	},
-	"[javascript]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"[typescript]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	}
+	//
+	"js/ts.updateImportsOnFileMove.enabled": "always"
 }
