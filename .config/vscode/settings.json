@@ -27,6 +27,7 @@
 	"editor.tabSize": 2,
 	"editor.tabCompletion": "on",
 	"editor.cursorBlinking": "expand",
+	"editor.experimental.treeSitterTelemetry": false,
 	//
 	"explorer.compactFolders": false,
 	"explorer.decorations.badges": true,
@@ -38,10 +39,8 @@
 	"telemetry.editStats.showDecorations": false,
 	"telemetry.editStats.showStatusBar": false,
 	"telemetry.feedback.enabled": false,
-	"editor.experimental.treeSitterTelemetry": false,
+	//
 	"workbench.productIconTheme": "material-product-icons",
-	"workbench.colorTheme": "Astro Kanagawa Dark",
-	"workbench.iconTheme": "bearded-icons",
 	"workbench.layoutControl.enabled": false,
 	"workbench.statusBar.visible": false,
 	"workbench.startupEditor": "none",
@@ -51,8 +50,81 @@
 	"workbench.reduceMotion": "on",
 	"workbench.tips.enabled": false,
 	"workbench.welcomePage.walkthroughs.openOnInstall": false,
-	"workbench.sideBar.location": "left",
 	"workbench.secondarySideBar.defaultVisibility": "hidden",
+	"workbench.browser.showInTitleBar": false,
+	"workbench.iconTheme": "catppuccin noctis icons",
+	"workbench.colorTheme": "Rosé Pine (no italics)",
+	"workbench.colorCustomizations": {
+		"[Rosé Pine (no italics)]": {
+			"editor.background": "#121119",
+			"editor.foreground": "#b6b3c5",
+
+			"editorGutter.background": "#121119",
+			"editorLineNumber.foreground": "#625e75",
+			"editorLineNumber.activeForeground": "#a39fb5",
+
+			"sideBar.background": "#121119",
+			"sideBar.foreground": "#8f8ba4",
+
+			"activityBar.background": "#121119",
+
+			"statusBar.background": "#121119",
+			"statusBar.foreground": "#8f8ba4",
+
+			"titleBar.activeBackground": "#121119",
+			"titleBar.activeForeground": "#8f8ba4",
+			"titleBar.inactiveBackground": "#121119",
+			"titleBar.inactiveForeground": "#77738a",
+
+			"panel.background": "#15141d",
+			"terminal.background": "#121119",
+			"terminal.foreground": "#b6b3c5",
+
+			"editorWidget.background": "#15141d",
+			"editorHoverWidget.background": "#15141d",
+			"editorSuggestWidget.background": "#15141d",
+			"peekViewEditor.background": "#15141d",
+			"peekViewResult.background": "#15141d",
+
+			"minimap.background": "#121119",
+
+			"tab.activeBackground": "#171620",
+			"tab.activeForeground": "#b6b3c5",
+			"tab.inactiveBackground": "#121119",
+			"tab.inactiveForeground": "#77738a",
+			"editorGroupHeader.tabsBackground": "#121119",
+
+			"list.hoverBackground": "#1a1822",
+			"list.hoverForeground": "#b6b3c5",
+			"list.activeSelectionBackground": "#23202d",
+			"list.activeSelectionForeground": "#b6b3c5",
+
+			"editor.selectionBackground": "#292633",
+			"editor.lineHighlightBackground": "#171620",
+			"editor.wordHighlightBackground": "#211f2b",
+			"editor.findMatchBackground": "#5d4e3540",
+
+			"editorCursor.background": "#b6b3c5",
+			"editorCursor.foreground": "#817c95",
+
+			"editorIndentGuide.background1": "#252330",
+			"editorIndentGuide.activeBackground1": "#454153",
+
+			"editorBracketHighlight.foreground1": "#a87f91",
+			"editorBracketHighlight.foreground2": "#668b96",
+			"editorBracketHighlight.foreground3": "#b59668",
+
+			"scrollbarSlider.background": "#363443",
+			"scrollbarSlider.hoverBackground": "#4d4a5d",
+
+			"badge.background": "#8f6c7a",
+			"badge.foreground": "#121119",
+
+			"input.background": "#171620",
+			"input.foreground": "#b6b3c5",
+			"dropdown.background": "#171620"
+		}
+	},
 	//
 	"window.commandCenter": false,
 	"window.zoomLevel": 0,
@@ -73,12 +145,13 @@
 	"chat.allowAnonymousAccess": true,
 	"chat.tips.enabled": false,
 	"chat.viewSessions.orientation": "stacked",
+	"chat.titleBar.openInAgentsWindow.enabled": false,
 	//
 	"extensions.allowed": {
 		"*": true
 	},
 	"extensions.autoCheckUpdates": true,
-	"extensions.autoUpdate": "onlyEnabledExtensions",
+	"extensions.autoUpdate": "on",
 	"extensions.ignoreRecommendations": true,
 	"extensions.verifySignature": false,
 	//
@@ -176,5 +249,7 @@
 		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
 	},
 	//
-	"js/ts.updateImportsOnFileMove.enabled": "always"
+	"js/ts.updateImportsOnFileMove.enabled": "always",
+	//
+	"catppuccin-noctis-icons.hidesExplorerArrows": false
 }
